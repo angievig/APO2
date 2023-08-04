@@ -8,14 +8,15 @@
 
 
 **Sesión 2** 
-[Slides de la clase]([url](https://docs.google.com/presentation/d/1x1DuUqtDZiGBFfU40LDiojNheQijSd2nb86KlqLUO1A/edit?usp=sharing))
-[Problemas]([https://docs.google.com/document/d/1RpHcuOcA0atVHloh9MLivozcQWXkPAfw/edit?usp=sharing&ouid=117715056210468312762&rtpof=true&sd=true)https://docs.google.com/document/d/1RpHcuOcA0atVHloh9MLivozcQWXkPAfw/edit?usp=sharing&ouid=117715056210468312762&rtpof=true&sd=true])
+[Slides de la clase](https://docs.google.com/presentation/d/1x1DuUqtDZiGBFfU40LDiojNheQijSd2nb86KlqLUO1A/edit?usp=sharing)
+[Problemas](https://docs.google.com/document/d/1RpHcuOcA0atVHloh9MLivozcQWXkPAfw/edit?usp=sharing&ouid=117715056210468312762&rtpof=true&sd=true)
+
 
 
 **Laboratorio**
 Trabajar en el seguimiento 
 
-[Seguimiento](https://classroom.github.com/a/foUEPcCJ))
+[Seguimiento](https://classroom.github.com/a/foUEPcCJ)
 
-[Guia de classroom]([https://codelabs-preview.appspot.com/?file_id=1pzLRtqQ-QgkdLGVhERLm3TiuaP06WtvlvPfZQEl2eLY#0])
+[Guia de classroom](https://codelabs-preview.appspot.com/?file_id=1pzLRtqQ-QgkdLGVhERLm3TiuaP06WtvlvPfZQEl2eLY#0)
 
