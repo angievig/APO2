@@ -2,6 +2,8 @@
 ## Elaborado por: Ángela Villota 
 ### Este repositorio presenta una bitácora del curso Algoritmos y programación 2, grupo 3 y el material del curso
 
+[Planeador del curso](https://docs.google.com/spreadsheets/d/1z8GmqfVigv0Cw7zNp6ka6kbA7co6jamBC4KDVrMvq2A/edit?usp=sharing)
+
 
 ## Semana 1
 
