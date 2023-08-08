@@ -11,8 +11,8 @@
 **Sesión 2**
 En esta Sesion trabajamos el tema de solución de problemas con recursividad y acumuladores, se dejó público en enunciado del seguimiento de la clase del viernes.
 
-*[Slides de la clase](https://docs.google.com/presentation/d/1x1DuUqtDZiGBFfU40LDiojNheQijSd2nb86KlqLUO1A/edit?usp=sharing)
-*[Problemas](https://docs.google.com/document/d/1RpHcuOcA0atVHloh9MLivozcQWXkPAfw/edit?usp=sharing&ouid=117715056210468312762&rtpof=true&sd=true)
+* [Slides de la clase](https://docs.google.com/presentation/d/1x1DuUqtDZiGBFfU40LDiojNheQijSd2nb86KlqLUO1A/edit?usp=sharing)
+* [Problemas](https://docs.google.com/document/d/1RpHcuOcA0atVHloh9MLivozcQWXkPAfw/edit?usp=sharing&ouid=117715056210468312762&rtpof=true&sd=true)
 
 
 
