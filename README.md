@@ -5,6 +5,7 @@
 
 
 [Planeador del curso](https://docs.google.com/spreadsheets/d/1z8GmqfVigv0Cw7zNp6ka6kbA7co6jamBC4KDVrMvq2A/edit?usp=sharing)
+[Grupo de telegram](https://t.me/+07pnqgzeptU3MjEx)
 
 
 ## Semana 1
@@ -29,7 +30,7 @@ En esta sesión se trabajó el seguimiento y se resolvieron algunas dudas sobre 
 *[Guia de classroom](https://codelabs-preview.appspot.com/?file_id=1pzLRtqQ-QgkdLGVhERLm3TiuaP06WtvlvPfZQEl2eLY#0)
 
 ## Semana 2
-
+[Material de estudio actualizado](https://github.com/angievig/APO2/blob/main/Semana2/Lectura/ListasEnlazadas1.pdf)
 **Sesión 1:** Esta semana tiene un festivo
 
 
@@ -39,7 +40,7 @@ Actividades planeadas para la clase
 2. Control de lectura
 3. Ejercicios
 
-[Slides de la clase](https://docs.google.com/presentation/d/1x1DuUqtDZiGBFfU40LDiojNheQijSd2nb86KlqLUO1A/edit?usp=sharing)
+[Slides de la clase](https://docs.google.com/presentation/d/1neaKYU--aSmZwmtmnajWwu_U4KrALCqQDnZBcDj6o7Q/edit?usp=sharing)
 
 **Laboratorio**
 
