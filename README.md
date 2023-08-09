@@ -38,11 +38,16 @@ En esta sesión se trabajó el seguimiento y se resolvieron algunas dudas sobre 
 **Sesión 2**
 Actividades planeadas para la clase
 1. Revisión del material asignado
-2. Control de lectura
+2. Control de lectura --> La solución del quiz está en la lectura ;-) 
 3. Ejercicios
 
 [Slides de la clase](https://docs.google.com/presentation/d/1neaKYU--aSmZwmtmnajWwu_U4KrALCqQDnZBcDj6o7Q/edit?usp=sharing)
 
+**Tarea para la clase del viernes**
+1. Completar la clase Paciente con getters/setters, constructor, método clone y toString
+2. Implementar los métodos: agregar-eliminar y buscar Paciente en la clase CentralPacientes
+3. **Preguntas:** por qué hay que desacoplar la solución propuesta?
+
 **Laboratorio**
 
-Seguimiento
+**Plan:** Seguimos con el tema de la semana, en la sesión del viernes tendremos clase y  vamos a resolver los ejercicios y a desacoplar la solución inicial
