@@ -4,8 +4,9 @@
 
 
 
-[Planeador del curso](https://docs.google.com/spreadsheets/d/1z8GmqfVigv0Cw7zNp6ka6kbA7co6jamBC4KDVrMvq2A/edit?usp=sharing)
-[Grupo de telegram](https://t.me/+07pnqgzeptU3MjEx)
+* [Planeador del curso](https://docs.google.com/spreadsheets/d/1z8GmqfVigv0Cw7zNp6ka6kbA7co6jamBC4KDVrMvq2A/edit?usp=sharing)
+
+* [Grupo de telegram](https://t.me/+07pnqgzeptU3MjEx)
 
 
 ## Semana 1
