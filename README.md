@@ -51,3 +51,14 @@ Actividades planeadas para la clase
 **Laboratorio**
 
 **Plan:** Seguimos con el tema de la semana, en la sesión del viernes tendremos clase y  vamos a resolver los ejercicios y a desacoplar la solución inicial
+
+## Semana 3
+**Sesión 1:** Revisión de la tarea y seguimiento
+
+[Enunciado](https://classroom.github.com/a/qiRH4oE2)
+
+**Sesión 2**
+Desarrollo del tema de listas doblemente enlazadas
+
+**Laboratorio**
+Problemas con listas
