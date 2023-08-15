@@ -4,7 +4,7 @@
     <eAnnotations xmi:id="_98EuoDnpEe61yZiXvLLS8Q" source="http://ns.yatta.de/umllab">
       <contents xmi:type="ecore:EAnnotation" xmi:id="_98JAEDnpEe61yZiXvLLS8Q" source="codegen">
         <details xmi:id="_98JnIDnpEe61yZiXvLLS8Q" key="codegenDirectory" value="/centralPacientes/src"/>
-        <details xmi:id="_-mBqkDnpEe61yZiXvLLS8Q" key="AssociatedSourceCode" value="/centralPacientesDesacoplado/src/model/CentralPacientes.java;324769447/1;/centralPacientesDesacoplado/src/model/Paciente.java;3447754763/1;/centralPacientesDesacoplado/src/ui/MainCentralPacientes.java;3880961003/1;/centralPacientesDesacoplado/src/util/Lista.java;997064785/1;/centralPacientesDesacoplado/src/util/ListaEnlazada.java;2280874640/1;/centralPacientesDesacoplado/src/util/Nodo.java;4221451281/1;"/>
+        <details xmi:id="_-mBqkDnpEe61yZiXvLLS8Q" key="AssociatedSourceCode" value="/centralPacientesDesacoplado/src/model/CentralPacientes.java;2145895369/1;/centralPacientesDesacoplado/src/model/Paciente.java;3447754763/1;/centralPacientesDesacoplado/src/ui/MainCentralPacientes.java;3880961003/1;/centralPacientesDesacoplado/src/util/Lista.java;997064785/1;/centralPacientesDesacoplado/src/util/ListaEnlazada.java;3194412177/1;/centralPacientesDesacoplado/src/util/Nodo.java;4221451281/1;"/>
       </contents>
     </eAnnotations>
     <elementImport xmi:id="_-TM1MDnpEe61yZiXvLLS8Q">
@@ -81,7 +81,7 @@
             <details xmi:id="_6-qF2DnqEe61yZiXvLLS8Q" key="codegenDirectory" value="/centralPacientesDesacoplado/src"/>
           </contents>
         </eAnnotations>
-        <ownedComment xmi:id="_7C-lIDnqEe61yZiXvLLS8Q">
+        <ownedComment xmi:id="_2b45ADsNEe61yZiXvLLS8Q">
           <body>Clase que implementa una lista con nodos enlazados, 
 implementa la interfaz Lista
 @author angievig
@@ -94,7 +94,9 @@ implementa la interfaz Lista
         </ownedAttribute>
         <interfaceRealization xmi:id="_7CXhIDnqEe61yZiXvLLS8Q" client="_6-qF1TnqEe61yZiXvLLS8Q" supplier="_6-oQoznqEe61yZiXvLLS8Q" contract="_6-oQoznqEe61yZiXvLLS8Q"/>
         <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7C2pVznqEe61yZiXvLLS8Q" name="ListaEnlazada" specification="_6-qs4DnqEe61yZiXvLLS8Q">
-          <ownedParameter xmi:id="_7C2pWDnqEe61yZiXvLLS8Q" type="_6-qF1TnqEe61yZiXvLLS8Q" direction="return"/>
+          <ownedParameter xmi:id="_7C2pWDnqEe61yZiXvLLS8Q" type="_6-qF1TnqEe61yZiXvLLS8Q" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
           <language>java</language>
           <body>primero= null;
 		numElementos = 0;
@@ -102,6 +104,7 @@ implementa la interfaz Lista
         </ownedBehavior>
         <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7C2pWTnqEe61yZiXvLLS8Q" name="esVacia" specification="_6-qs5DnqEe61yZiXvLLS8Q">
           <ownedParameter xmi:id="_7C2pWjnqEe61yZiXvLLS8Q" direction="return">
+            <name xsi:nil="true"/>
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
           </ownedParameter>
           <language>java</language>
@@ -116,6 +119,7 @@ implementa la interfaz Lista
 		
 		if (primero ==null) { //Si la lista es vacIa el nuevo es el primero
 			primero = nuevo;
+			numElementos++;
 			
 		}else { //Se encuentra el ultimo nodo
 			while(actual.getSiguiente() != null) {
@@ -123,6 +127,8 @@ implementa la interfaz Lista
 			}
 			actual.setSiguiente(nuevo);	
 			//FIXME incrementar la cantidad de elementos cada que se agrega un nodo
+			numElementos++;
+			
 		}
 		
 		
@@ -131,14 +137,16 @@ implementa la interfaz Lista
         </ownedBehavior>
         <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7C3QYjnqEe61yZiXvLLS8Q" name="buscar" specification="_6-r7CDnqEe61yZiXvLLS8Q">
           <ownedParameter xmi:id="_7C3QYznqEe61yZiXvLLS8Q" name="clave" type="_-ZV5cTnpEe61yZiXvLLS8Q"/>
-          <ownedParameter xmi:id="_7C3QZDnqEe61yZiXvLLS8Q" type="_-ZV5cTnpEe61yZiXvLLS8Q" direction="return"/>
+          <ownedParameter xmi:id="_7C3QZDnqEe61yZiXvLLS8Q" type="_-ZV5cTnpEe61yZiXvLLS8Q" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
           <language>java</language>
           <body>Object found =  null;
 		Nodo actual= primero;
 		
 		if (primero !=null) { //Si la lista es no es vacIA se hace el recorrido
 			
-			while(actual.getSiguiente() != null &amp;&amp; found!=null) {
+			while(actual.getSiguiente() != null &amp;&amp; found==null) {
 				if (actual.getContenido().equals(clave))
 					found = actual.getContenido();
 				actual=actual.getSiguiente();
@@ -155,6 +163,7 @@ implementa la interfaz Lista
         </ownedBehavior>
         <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7C3QZTnqEe61yZiXvLLS8Q" name="toString" specification="_6-tJIjnqEe61yZiXvLLS8Q">
           <ownedParameter xmi:id="_7C3QZjnqEe61yZiXvLLS8Q" direction="return">
+            <name xsi:nil="true"/>
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </ownedParameter>
           <language>java</language>
@@ -173,6 +182,40 @@ implementa la interfaz Lista
 		
 		
 		return out + &quot;]&quot;;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_k4h7IDq5Ee61yZiXvLLS8Q" name="eliminar" specification="_6-siFTnqEe61yZiXvLLS8Q">
+          <ownedParameter xmi:id="_k4jwUDq5Ee61yZiXvLLS8Q" name="clave" type="_-ZV5cTnpEe61yZiXvLLS8Q"/>
+          <language>java</language>
+          <body>if (primero != null) {
+			Nodo actual, anterior;
+			anterior=primero;
+			actual= primero.getSiguiente();
+			boolean found= false;
+			
+			if(primero.getContenido().equals(clave)) { //quiero eliminar el primero
+					primero =actual;
+					numElementos--;
+			}
+			else {		
+				//Se hace el recorrido hasta encontrar el nodo
+				while(actual!=null &amp;&amp; !found) {
+					if(actual.getContenido().equals(clave)) {
+						found= true;
+						anterior.setSiguiente(actual.getSiguiente());
+						actual.setSiguiente(null);
+						numElementos--;
+					}
+					actual= actual.getSiguiente();
+					anterior= anterior.getSiguiente();
+				}
+			}
+
+		}else {
+			//FIXME generar una excepción para las listas vacías
+		} 
+	
+		
 	</body>
         </ownedBehavior>
         <ownedOperation xmi:id="_6-qs4DnqEe61yZiXvLLS8Q" name="ListaEnlazada" method="_7C2pVznqEe61yZiXvLLS8Q">
@@ -196,7 +239,7 @@ implementa la interfaz Lista
           <ownedParameter xmi:id="_6-siEDnqEe61yZiXvLLS8Q" name="clave" type="_-ZV5cTnpEe61yZiXvLLS8Q"/>
           <ownedParameter xmi:id="_6-siETnqEe61yZiXvLLS8Q" type="_-ZV5cTnpEe61yZiXvLLS8Q" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_6-siFTnqEe61yZiXvLLS8Q" name="eliminar">
+        <ownedOperation xmi:id="_6-siFTnqEe61yZiXvLLS8Q" name="eliminar" method="_k4h7IDq5Ee61yZiXvLLS8Q">
           <ownedParameter xmi:id="_6-siFjnqEe61yZiXvLLS8Q" name="clave" type="_-ZV5cTnpEe61yZiXvLLS8Q"/>
         </ownedOperation>
         <ownedOperation xmi:id="_6-tJIjnqEe61yZiXvLLS8Q" name="toString" method="_7C3QZTnqEe61yZiXvLLS8Q">
@@ -265,7 +308,7 @@ implementa la interfaz Lista
             <details xmi:id="_6-OA8DnqEe61yZiXvLLS8Q" key="codegenDirectory" value="/centralPacientesDesacoplado/src"/>
           </contents>
         </eAnnotations>
-        <ownedComment xmi:id="_7C33cDnqEe61yZiXvLLS8Q">
+        <ownedComment xmi:id="_JmXVYDsEEe61yZiXvLLS8Q">
           <body>Clase controladora del caso de estudio del texto
 @author angievig
 @version 1.0
@@ -273,7 +316,9 @@ implementa la interfaz Lista
         </ownedComment>
         <ownedAttribute xmi:id="_7CdnwDnqEe61yZiXvLLS8Q" name="pacientes" visibility="package" type="_6-qF1TnqEe61yZiXvLLS8Q" association="_7DI9MDnqEe61yZiXvLLS8Q"/>
         <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7CyX4DnqEe61yZiXvLLS8Q" name="CentralPacientes" specification="_6-UHkDnqEe61yZiXvLLS8Q">
-          <ownedParameter xmi:id="_7Cy-8DnqEe61yZiXvLLS8Q" type="_6-HTQDnqEe61yZiXvLLS8Q" direction="return"/>
+          <ownedParameter xmi:id="_7Cy-8DnqEe61yZiXvLLS8Q" type="_6-HTQDnqEe61yZiXvLLS8Q" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
           <language>java</language>
           <body>pacientes = new ListaEnlazada();
 	</body>
@@ -283,11 +328,12 @@ implementa la interfaz Lista
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
           </ownedParameter>
           <ownedParameter xmi:id="_7C0NEjnqEe61yZiXvLLS8Q" direction="return">
+            <name xsi:nil="true"/>
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </ownedParameter>
           <language>java</language>
           <body>String out= &quot;El paciente con codigo &quot; + code+ &quot; no está registrado&quot;;
-		Paciente p = (Paciente)pacientes.buscar(code+&quot;&quot;);
+		Paciente p = (Paciente)pacientes.buscar(code);
 		
 		if (p!=null)
 			out= &quot;El paciente con cOdigo &quot; + code + &quot; está registrado&quot; ;
@@ -300,6 +346,7 @@ implementa la interfaz Lista
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
           </ownedParameter>
           <ownedParameter xmi:id="_7C00IjnqEe61yZiXvLLS8Q" direction="return">
+            <name xsi:nil="true"/>
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </ownedParameter>
           <language>java</language>
@@ -321,6 +368,7 @@ implementa la interfaz Lista
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
           </ownedParameter>
           <ownedParameter xmi:id="_7C00JTnqEe61yZiXvLLS8Q" direction="return">
+            <name xsi:nil="true"/>
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </ownedParameter>
           <language>java</language>
@@ -328,7 +376,7 @@ implementa la interfaz Lista
 		Paciente p = (Paciente)pacientes.buscar(code);
 		
 		if (p!=null) {
-			pacientes.eliminar(p);
+			pacientes.eliminar(p.getCodigo());
 			out= &quot;El paciente con cOdigo &quot; + code + &quot; fue correctamente eliminado&quot;; 
 		}else {
 			out= &quot;Error: el paciente con cOdigo &quot; + code + &quot; no está registrado&quot;;

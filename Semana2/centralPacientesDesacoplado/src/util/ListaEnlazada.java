@@ -1,6 +1,5 @@
 package util;
 
-import model.Paciente;
 
 /**
  * Clase que implementa una lista con nodos enlazados, 
@@ -48,6 +47,7 @@ public class ListaEnlazada implements Lista {
 		
 		if (primero ==null) { //Si la lista es vacIa el nuevo es el primero
 			primero = nuevo;
+			numElementos++;
 			
 		}else { //Se encuentra el ultimo nodo
 			while(actual.getSiguiente() != null) {
@@ -55,6 +55,8 @@ public class ListaEnlazada implements Lista {
 			}
 			actual.setSiguiente(nuevo);	
 			//FIXME incrementar la cantidad de elementos cada que se agrega un nodo
+			numElementos++;
+			
 		}
 		
 		
@@ -68,7 +70,7 @@ public class ListaEnlazada implements Lista {
 		
 		if (primero !=null) { //Si la lista es no es vacIA se hace el recorrido
 			
-			while(actual.getSiguiente() != null && found!=null) {
+			while(actual.getSiguiente() != null && found==null) {
 				if (actual.getContenido().equals(clave))
 					found = actual.getContenido();
 				actual=actual.getSiguiente();
@@ -86,6 +88,37 @@ public class ListaEnlazada implements Lista {
 	@Override
 	public void eliminar(Object clave) {
 		// TODO buscar el nodo por clave y luego desconectar el nodo
+		//FIXME lanzar excepción cuando la lista esté vacía
+
+		
+		if (primero != null) {
+			Nodo actual, anterior;
+			anterior=primero;
+			actual= primero.getSiguiente();
+			boolean found= false;
+			
+			if(primero.getContenido().equals(clave)) { //quiero eliminar el primero
+					primero =actual;
+					numElementos--;
+			}
+			else {		
+				//Se hace el recorrido hasta encontrar el nodo
+				while(actual!=null && !found) {
+					if(actual.getContenido().equals(clave)) {
+						found= true;
+						anterior.setSiguiente(actual.getSiguiente());
+						actual.setSiguiente(null);
+						numElementos--;
+					}
+					actual= actual.getSiguiente();
+					anterior= anterior.getSiguiente();
+				}
+			}
+
+		}else {
+			//FIXME generar una excepción para las listas vacías
+		} 
+	
 		
 	}
 	

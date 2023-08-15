@@ -26,7 +26,7 @@ public class CentralPacientes {
 	 */
 	public String buscarPaciente(int code) {
 		String out= "El paciente con codigo " + code+ " no está registrado";
-		Paciente p = (Paciente)pacientes.buscar(code+"");
+		Paciente p = (Paciente)pacientes.buscar(code);
 		
 		if (p!=null)
 			out= "El paciente con cOdigo " + code + " está registrado" ;
@@ -54,7 +54,7 @@ public class CentralPacientes {
 		Paciente p = (Paciente)pacientes.buscar(code);
 		
 		if (p!=null) {
-			pacientes.eliminar(p);
+			pacientes.eliminar(p.getCodigo());
 			out= "El paciente con cOdigo " + code + " fue correctamente eliminado"; 
 		}else {
 			out= "Error: el paciente con cOdigo " + code + " no está registrado";
