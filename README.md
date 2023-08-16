@@ -60,5 +60,9 @@ Actividades planeadas para la clase
 **Sesión 2**
 Desarrollo del tema de listas doblemente enlazadas
 
+[Slides](https://docs.google.com/presentation/d/1xNMVBFYSwW6-hspHjmx8AuNAtfCQiHDbnCmHlNBr2F4/edit?usp=sharing)
+
+[Tablero de miro](https://miro.com/app/board/uXjVMuSAqdI=/?share_link_id=949722244214)
+
 **Laboratorio**
 Problemas con listas
