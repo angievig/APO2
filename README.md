@@ -76,6 +76,7 @@ Problemas con listas
 Desarrollo del tema de listas doblemente enlazadas, con algritmos recursivos
 
 *[Enunciado de la TI1](https://docs.google.com/document/d/1nUKmEgQEIFwKtmG8eyzxZotsXMF9cc4s/edit?usp=sharing&ouid=117715056210468312762&rtpof=true&sd=true)
+
 *[Slides](https://docs.google.com/presentation/d/182ZlVjVQQFQGYO0PKBJZ_unsbZMyP-b2E4nfOEoL1tA/edit?usp=sharing)
 
 *[Tablero de miro](https://miro.com/app/board/uXjVMsczshk=/?share_link_id=438776761674)
