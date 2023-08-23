@@ -60,9 +60,26 @@ Actividades planeadas para la clase
 **Sesión 2**
 Desarrollo del tema de listas doblemente enlazadas
 
-[Slides](https://docs.google.com/presentation/d/1xNMVBFYSwW6-hspHjmx8AuNAtfCQiHDbnCmHlNBr2F4/edit?usp=sharing)
+* [Slides](https://docs.google.com/presentation/d/1xNMVBFYSwW6-hspHjmx8AuNAtfCQiHDbnCmHlNBr2F4/edit?usp=sharing)
 
-[Tablero de miro](https://miro.com/app/board/uXjVMuSAqdI=/?share_link_id=949722244214)
+* [Tablero de miro](https://miro.com/app/board/uXjVMuSAqdI=/?share_link_id=949722244214)
 
 **Laboratorio**
 Problemas con listas
+
+## Semana 4
+**Sesión 1:** Día festivo
+
+
+
+**Sesión 2**
+Desarrollo del tema de listas doblemente enlazadas, con algritmos recursivos
+
+*[Enunciado de la TI1](https://docs.google.com/document/d/1nUKmEgQEIFwKtmG8eyzxZotsXMF9cc4s/edit?usp=sharing&ouid=117715056210468312762&rtpof=true&sd=true)
+*[Slides](https://docs.google.com/presentation/d/182ZlVjVQQFQGYO0PKBJZ_unsbZMyP-b2E4nfOEoL1tA/edit?usp=sharing)
+
+*[Tablero de miro](https://miro.com/app/board/uXjVMsczshk=/?share_link_id=438776761674)
+
+**Laboratorio**
+Este viernes no tendremos seguimiento, los estudiantes van a trabajar en la entrega de la tarea integradora y van a resolver dudas sobre los algoritmos recursivos.
+
