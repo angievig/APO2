@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_worHcDxxEe6JP61YZFrUJg">
+  <modelElement href="centralPacientesDobleEnlazada.uml#_wmPegDxxEe6JP61YZFrUJg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_1FzaEDxxEe6JP61YZFrUJg" targetItem="_1GTJUDxxEe6JP61YZFrUJg" sourceItem="_1EytcDxxEe6JP61YZFrUJg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1GNCsDxxEe6JP61YZFrUJg" sourceAnchor="0.0,59.0" targetAnchor="0.0,27.0" target="_1KIgcDxxEe6JP61YZFrUJg" source="_1GTJUDxxEe6JP61YZFrUJg">
+    <modelElement href="centralPacientesDobleEnlazada.uml#_xICkBDxxEe6JP61YZFrUJg"/>
+    <bendpoints xmi:id="_1dgvcDxxEe6JP61YZFrUJg" sourceX="-479" targetX="-79" targetY="195"/>
+    <bendpoints xmi:id="_1dhWgDxxEe6JP61YZFrUJg" sourceX="-479" sourceY="-195" targetX="-79"/>
+    <stereotypes xmi:id="_1GNCsTxxEe6JP61YZFrUJg" name="Reference">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xIDLEDxxEe6JP61YZFrUJg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1GNCsjxxEe6JP61YZFrUJg" text="">
+      <visualProperties xmi:id="_1dorQDxxEe6JP61YZFrUJg" position="-21.000000000000057,64.49999999999977"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1GNCszxxEe6JP61YZFrUJg" aggregationKind="NONE" name="">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xICkBTxxEe6JP61YZFrUJg"/>
+      <visualProperties xmi:id="_1dmPAzxxEe6JP61YZFrUJg" position="-19.0,5.5"/>
+      <visibility xmi:id="_1GNCtDxxEe6JP61YZFrUJg" label="+"/>
+      <cardinality xmi:id="_1GNCtTxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1GNCtjxxEe6JP61YZFrUJg" aggregationKind="NONE" name="first" navigable="true">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xHjb0TxxEe6JP61YZFrUJg"/>
+      <visualProperties xmi:id="_1dorQTxxEe6JP61YZFrUJg" position="-39.5,5.5"/>
+      <visibility xmi:id="_1GNCtzxxEe6JP61YZFrUJg" label="-"/>
+      <cardinality xmi:id="_1GNCuDxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1GRUIDxxEe6JP61YZFrUJg" sourceAnchor="93.0,0.0" targetAnchor="142.0,53.0" target="_1KIgcDxxEe6JP61YZFrUJg" source="_1GTJUDxxEe6JP61YZFrUJg">
+    <modelElement href="centralPacientesDobleEnlazada.uml#_xIDLETxxEe6JP61YZFrUJg"/>
+    <bendpoints xmi:id="_1dhWgTxxEe6JP61YZFrUJg" sourceY="-19" targetX="351" targetY="91"/>
+    <bendpoints xmi:id="_1dhWgjxxEe6JP61YZFrUJg" sourceX="-351" sourceY="-19" targetY="91"/>
+    <stereotypes xmi:id="_1GRUITxxEe6JP61YZFrUJg" name="Reference">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xIDLEzxxEe6JP61YZFrUJg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1GRUIjxxEe6JP61YZFrUJg" text="">
+      <visualProperties xmi:id="_1dp5YDxxEe6JP61YZFrUJg" position="-105.0,-7.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1GRUIzxxEe6JP61YZFrUJg" aggregationKind="NONE" name="">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xIDLEjxxEe6JP61YZFrUJg"/>
+      <visualProperties xmi:id="_1dpSUDxxEe6JP61YZFrUJg" position="-112.0,-13.5"/>
+      <visibility xmi:id="_1GRUJDxxEe6JP61YZFrUJg" label="+"/>
+      <cardinality xmi:id="_1GRUJTxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1GRUJjxxEe6JP61YZFrUJg" aggregationKind="NONE" name="last" navigable="true">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xHkC4TxxEe6JP61YZFrUJg"/>
+      <visualProperties xmi:id="_1dqgcDxxEe6JP61YZFrUJg" position="9.5,5.5"/>
+      <visibility xmi:id="_1GRUJzxxEe6JP61YZFrUJg" label="-"/>
+      <cardinality xmi:id="_1GRUKDxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_1H4dsDxxEe6JP61YZFrUJg" targetItem="_1IT7gDxxEe6JP61YZFrUJg" sourceItem="_1HTO4DxxEe6JP61YZFrUJg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_1IAZgDxxEe6JP61YZFrUJg" sourceAnchor="106.0,0.0" targetAnchor="130.0,193.0" superClass="_1IT7gDxxEe6JP61YZFrUJg" subClass="_1GTJUDxxEe6JP61YZFrUJg">
+    <modelElement href="centralPacientesDobleEnlazada.uml#_xHApQDxxEe6JP61YZFrUJg"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1IIVUDxxEe6JP61YZFrUJg" sourceAnchor="259.0,97.0" targetAnchor="0.0,49.0" target="_1JnjEDxxEe6JP61YZFrUJg" source="_1IT7gDxxEe6JP61YZFrUJg">
+    <modelElement href="centralPacientesDobleEnlazada.uml#_xIDyIzxxEe6JP61YZFrUJg"/>
+    <bendpoints xmi:id="_1dh9kDxxEe6JP61YZFrUJg" sourceX="79" targetX="709" targetY="286"/>
+    <bendpoints xmi:id="_1dikoDxxEe6JP61YZFrUJg" sourceX="79" sourceY="273" targetX="709" targetY="559"/>
+    <bendpoints xmi:id="_1dikoTxxEe6JP61YZFrUJg" sourceX="-753" sourceY="273" targetX="-123" targetY="559"/>
+    <bendpoints xmi:id="_1dikojxxEe6JP61YZFrUJg" sourceX="-753" sourceY="-286" targetX="-123"/>
+    <stereotypes xmi:id="_1IIVUTxxEe6JP61YZFrUJg" name="Reference">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xIDyJTxxEe6JP61YZFrUJg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1IIVUjxxEe6JP61YZFrUJg" text="">
+      <visualProperties xmi:id="_1drHgDxxEe6JP61YZFrUJg" position="-398.0,-7.500000000000227"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1IIVUzxxEe6JP61YZFrUJg" aggregationKind="NONE" name="">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xIDyJDxxEe6JP61YZFrUJg"/>
+      <visualProperties xmi:id="_1dqgcTxxEe6JP61YZFrUJg" position="32.0,-46.5"/>
+      <visibility xmi:id="_1IIVVDxxEe6JP61YZFrUJg" label="+"/>
+      <cardinality xmi:id="_1IIVVTxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1IIVVjxxEe6JP61YZFrUJg" aggregationKind="NONE" name="first" navigable="true">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xHo7YDxxEe6JP61YZFrUJg"/>
+      <visualProperties xmi:id="_1drHgTxxEe6JP61YZFrUJg" position="-39.5,5.500000000000057"/>
+      <visibility xmi:id="_1IIVVzxxEe6JP61YZFrUJg" label="-"/>
+      <cardinality xmi:id="_1IIVWDxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1IRfQDxxEe6JP61YZFrUJg" sourceAnchor="259.0,84.0" targetAnchor="273.0,49.0" target="_1JnjEDxxEe6JP61YZFrUJg" source="_1IT7gDxxEe6JP61YZFrUJg">
+    <modelElement href="centralPacientesDobleEnlazada.uml#_xIEZMDxxEe6JP61YZFrUJg"/>
+    <bendpoints xmi:id="_1djLsDxxEe6JP61YZFrUJg" sourceX="27" targetX="384" targetY="273"/>
+    <bendpoints xmi:id="_1djLsTxxEe6JP61YZFrUJg" sourceX="27" sourceY="-273" targetX="384"/>
+    <stereotypes xmi:id="_1IRfQTxxEe6JP61YZFrUJg" name="Reference">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xIEZMjxxEe6JP61YZFrUJg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1IRfQjxxEe6JP61YZFrUJg" text="">
+      <visualProperties xmi:id="_1dtjwDxxEe6JP61YZFrUJg" position="3.0,-50.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1IRfQzxxEe6JP61YZFrUJg" aggregationKind="NONE" name="">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xIEZMTxxEe6JP61YZFrUJg"/>
+      <visualProperties xmi:id="_1dsVoDxxEe6JP61YZFrUJg" position="7.0,-46.0"/>
+      <visibility xmi:id="_1IRfRDxxEe6JP61YZFrUJg" label="+"/>
+      <cardinality xmi:id="_1IRfRTxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1IRfRjxxEe6JP61YZFrUJg" aggregationKind="NONE" name="last" navigable="true">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xHqJgDxxEe6JP61YZFrUJg"/>
+      <visualProperties xmi:id="_1duK0DxxEe6JP61YZFrUJg" position="103.0,-46.5"/>
+      <visibility xmi:id="_1IRfRzxxEe6JP61YZFrUJg" label="-"/>
+      <cardinality xmi:id="_1IRfSDxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1I6YcDxxEe6JP61YZFrUJg" sourceAnchor="150.0,0.0" targetAnchor="273.0,36.0" target="_1JnjEDxxEe6JP61YZFrUJg" source="_1JnjEDxxEe6JP61YZFrUJg">
+    <modelElement href="centralPacientesDobleEnlazada.uml#_xH72UTxxEe6JP61YZFrUJg"/>
+    <bendpoints xmi:id="_1dln8DxxEe6JP61YZFrUJg" sourceY="-42" targetX="-123" targetY="-78"/>
+    <bendpoints xmi:id="_1dln8TxxEe6JP61YZFrUJg" sourceX="221" sourceY="-42" targetX="98" targetY="-78"/>
+    <bendpoints xmi:id="_1dln8jxxEe6JP61YZFrUJg" sourceX="221" sourceY="36" targetX="98"/>
+    <nameVisual xmi:id="_1JbV0TxxEe6JP61YZFrUJg" text="">
+      <visualProperties xmi:id="_1dvY8DxxEe6JP61YZFrUJg" position="-60.0,-7.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1JbV0jxxEe6JP61YZFrUJg" aggregationKind="NONE" name="next" navigable="true">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xHoUVTxxEe6JP61YZFrUJg"/>
+      <visualProperties xmi:id="_1dux4DxxEe6JP61YZFrUJg" position="71.0,-88.50000000000001"/>
+      <visibility xmi:id="_1Jcj8TxxEe6JP61YZFrUJg" label="+"/>
+      <cardinality xmi:id="_1Jcj8DxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1JbV0zxxEe6JP61YZFrUJg" aggregationKind="NONE" name="">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xH72UjxxEe6JP61YZFrUJg"/>
+      <visualProperties xmi:id="_1dvY8TxxEe6JP61YZFrUJg" position="78.0,-46.0"/>
+      <visibility xmi:id="_1Jcj8zxxEe6JP61YZFrUJg" label="+"/>
+      <cardinality xmi:id="_1Jcj8jxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_1JSL4DxxEe6JP61YZFrUJg" targetItem="_1JnjEDxxEe6JP61YZFrUJg" sourceItem="_1JRk0DxxEe6JP61YZFrUJg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_1JZgoDxxEe6JP61YZFrUJg" sourceAnchor="142.0,0.0" targetAnchor="137.0,98.0" superClass="_1JnjEDxxEe6JP61YZFrUJg" subClass="_1KIgcDxxEe6JP61YZFrUJg">
+    <modelElement href="centralPacientesDobleEnlazada.uml#_xHEToDxxEe6JP61YZFrUJg"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1JauwDxxEe6JP61YZFrUJg" source="_1JnjEDxxEe6JP61YZFrUJg">
+    <modelElement href="centralPacientesDobleEnlazada.uml#_xIDyIDxxEe6JP61YZFrUJg"/>
+    <stereotypes xmi:id="_1Jb84jxxEe6JP61YZFrUJg" name="Reference">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xIDyIjxxEe6JP61YZFrUJg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1JbV1DxxEe6JP61YZFrUJg" text=""/>
+    <sourceRole xmi:id="_1Jb84DxxEe6JP61YZFrUJg" aggregationKind="NONE" name="">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xIDyITxxEe6JP61YZFrUJg"/>
+      <visibility xmi:id="_1JgOUjxxEe6JP61YZFrUJg" label="+"/>
+      <cardinality xmi:id="_1JgOUTxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1Jb84TxxEe6JP61YZFrUJg" aggregationKind="NONE" name="content" navigable="true">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xHmfITxxEe6JP61YZFrUJg"/>
+      <visibility xmi:id="_1JgOVDxxEe6JP61YZFrUJg" label="+"/>
+      <cardinality xmi:id="_1JgOUzxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_1JbV0DxxEe6JP61YZFrUJg" targetItem="_1JnjIzxxEe6JP61YZFrUJg" sourceItem="_1JauwTxxEe6JP61YZFrUJg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1JdLADxxEe6JP61YZFrUJg" sourceAnchor="155.0,0.0" targetAnchor="283.0,27.0" target="_1KIgcDxxEe6JP61YZFrUJg" source="_1KIgcDxxEe6JP61YZFrUJg">
+    <modelElement href="centralPacientesDobleEnlazada.uml#_xIDLFDxxEe6JP61YZFrUJg"/>
+    <bendpoints xmi:id="_1dmPADxxEe6JP61YZFrUJg" sourceY="-38" targetX="-128" targetY="-65"/>
+    <bendpoints xmi:id="_1dmPATxxEe6JP61YZFrUJg" sourceX="208" sourceY="-38" targetX="80" targetY="-65"/>
+    <bendpoints xmi:id="_1dmPAjxxEe6JP61YZFrUJg" sourceX="208" sourceY="27" targetX="80"/>
+    <stereotypes xmi:id="_1JhcdTxxEe6JP61YZFrUJg" name="Reference">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xIDLFjxxEe6JP61YZFrUJg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1JhccjxxEe6JP61YZFrUJg" text="">
+      <visualProperties xmi:id="_1dwnEDxxEe6JP61YZFrUJg" position="-153.5,-7.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1JhcczxxEe6JP61YZFrUJg" aggregationKind="NONE" name="">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xIDLFTxxEe6JP61YZFrUJg"/>
+      <visualProperties xmi:id="_1dwAADxxEe6JP61YZFrUJg" position="5.0,-84.5"/>
+      <visibility xmi:id="_1JlG0TxxEe6JP61YZFrUJg" label="+"/>
+      <cardinality xmi:id="_1JlG0DxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1JhcdDxxEe6JP61YZFrUJg" aggregationKind="NONE" name="prev" navigable="true">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xHkp8TxxEe6JP61YZFrUJg"/>
+      <visualProperties xmi:id="_1dwnETxxEe6JP61YZFrUJg" position="5.5,-46.5"/>
+      <visibility xmi:id="_1JlG0zxxEe6JP61YZFrUJg" label="+"/>
+      <cardinality xmi:id="_1JlG0jxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_1JgOUDxxEe6JP61YZFrUJg" targetItem="_1KIgcDxxEe6JP61YZFrUJg" sourceItem="_1JfnQDxxEe6JP61YZFrUJg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_1JhccTxxEe6JP61YZFrUJg" targetItem="_1KIgeDxxEe6JP61YZFrUJg" sourceItem="_1JhccDxxEe6JP61YZFrUJg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_1K2SIDxxEe6JP61YZFrUJg" sourceAnchor="137.0,0.0" targetAnchor="79.0,92.0" dashed="true" superClass="_1LP6wDxxEe6JP61YZFrUJg" subClass="_1JnjEDxxEe6JP61YZFrUJg">
+    <modelElement href="centralPacientesDobleEnlazada.uml#_xHE6sDxxEe6JP61YZFrUJg"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1LB4UDxxEe6JP61YZFrUJg" target="_1LP6wDxxEe6JP61YZFrUJg">
+    <modelElement href="centralPacientesDobleEnlazada.uml#_xH6oNjxxEe6JP61YZFrUJg"/>
+    <nameVisual xmi:id="_1LPTsDxxEe6JP61YZFrUJg" text=""/>
+    <sourceRole xmi:id="_1LPTsTxxEe6JP61YZFrUJg" aggregationKind="NONE" name="content" navigable="true">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xDOVcDxxEe6JP61YZFrUJg"/>
+      <visibility xmi:id="_1LPTtDxxEe6JP61YZFrUJg" label="~"/>
+      <cardinality xmi:id="_1LPTszxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1LPTsjxxEe6JP61YZFrUJg" aggregationKind="NONE" name="">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xH6oNzxxEe6JP61YZFrUJg"/>
+      <visibility xmi:id="_1LPTtjxxEe6JP61YZFrUJg" label="+"/>
+      <cardinality xmi:id="_1LPTtTxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_1MFBMDxxEe6JP61YZFrUJg" targetItem="_1Nf9gDxxEe6JP61YZFrUJg" sourceItem="_1LwREDxxEe6JP61YZFrUJg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_1NIxIDxxEe6JP61YZFrUJg" sourceAnchor="130.0,0.0" targetAnchor="116.0,150.0" dashed="true" superClass="_1Nf9gDxxEe6JP61YZFrUJg" subClass="_1IT7gDxxEe6JP61YZFrUJg">
+    <modelElement href="centralPacientesDobleEnlazada.uml#_xHM2gDxxEe6JP61YZFrUJg"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_1EytcDxxEe6JP61YZFrUJg" sourceConnectionVisual="_1FzaEDxxEe6JP61YZFrUJg" text="Clase que implementa una lista doblemente enlazada &#xA;implementa la interfaz Lista&#xA;@author angievig&#xA;@version 1.0&#xA;@since August 2023" item="_1GTJUDxxEe6JP61YZFrUJg">
+    <modelElement href="centralPacientesDobleEnlazada.uml#_xH6oNDxxEe6JP61YZFrUJg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_1HTO4DxxEe6JP61YZFrUJg" sourceConnectionVisual="_1H4dsDxxEe6JP61YZFrUJg" text="Clase que implementa una lista con nodos enlazados, &#xA;implementa la interfaz Lista&#xA;Esta versiOn de la lista incluye una referencia al &#xA;ultimo elemento de la lista para reducir la cantidad de operaciones&#xA;en algunos casos.&#xA;@author angievig&#xA;@version 1.1&#xA;@since August 2023" item="_1IT7gDxxEe6JP61YZFrUJg">
+    <modelElement href="centralPacientesDobleEnlazada.uml#_xH72VDxxEe6JP61YZFrUJg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_1JRk0DxxEe6JP61YZFrUJg" sourceConnectionVisual="_1JSL4DxxEe6JP61YZFrUJg" text="Clase que implementa un nodo simple usando Object para el contenido&#xA;@author angievig&#xA;@version 1.0&#xA;@since August 2023" item="_1JnjEDxxEe6JP61YZFrUJg">
+    <modelElement href="centralPacientesDobleEnlazada.uml#_xH72UDxxEe6JP61YZFrUJg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_1JauwTxxEe6JP61YZFrUJg" sourceConnectionVisual="_1JbV0DxxEe6JP61YZFrUJg" text="constructor&#xA;&#x9; * @param c es un objeto, el contenido del nodo" item="_1JnjIzxxEe6JP61YZFrUJg">
+    <modelElement href="centralPacientesDobleEnlazada.uml#_xH72UzxxEe6JP61YZFrUJg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_1JfnQDxxEe6JP61YZFrUJg" sourceConnectionVisual="_1JgOUDxxEe6JP61YZFrUJg" text="Clase que implementa un nodo doble usando Object para el contenido&#xA;extiende la clase NodeSingle con la referencia al nodo anterior, el constructor&#xA;getters y setters respectivos&#xA;@author angievig&#xA;@version 1.0&#xA;@since August 2023" item="_1KIgcDxxEe6JP61YZFrUJg">
+    <modelElement href="centralPacientesDobleEnlazada.uml#_xH6oODxxEe6JP61YZFrUJg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_1JhccDxxEe6JP61YZFrUJg" sourceConnectionVisual="_1JhccTxxEe6JP61YZFrUJg" text="Constructor&#xA;&#x9; * @param c es el contenido del nodo" item="_1KIgeDxxEe6JP61YZFrUJg">
+    <modelElement href="centralPacientesDobleEnlazada.uml#_xH7PQDxxEe6JP61YZFrUJg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_1LwREDxxEe6JP61YZFrUJg" sourceConnectionVisual="_1MFBMDxxEe6JP61YZFrUJg" text="Interfaz que define las operaciones básicas de una lista&#xA;@author angievig&#xA;@version 1.0&#xA;@since August 2023" item="_1Nf9gDxxEe6JP61YZFrUJg">
+    <modelElement href="centralPacientesDobleEnlazada.uml#_xH6oNTxxEe6JP61YZFrUJg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1GTJUDxxEe6JP61YZFrUJg" comments="_1EytcDxxEe6JP61YZFrUJg" targetConnectionVisual="_1FzaEDxxEe6JP61YZFrUJg" name="DoubleLinkedList" associationsOut="_1GNCsDxxEe6JP61YZFrUJg _1GRUIDxxEe6JP61YZFrUJg" generalizations="_1IAZgDxxEe6JP61YZFrUJg">
+    <modelElement href="centralPacientesDobleEnlazada.uml#_xC_r8DxxEe6JP61YZFrUJg"/>
+    <visualProperties xmi:id="_1GTJUTxxEe6JP61YZFrUJg" position="528.0,655.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1GTJUjxxEe6JP61YZFrUJg" label="+"/>
+    <attributes xmi:id="_1GTJUzxxEe6JP61YZFrUJg" name="first">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xHjb0TxxEe6JP61YZFrUJg"/>
+      <stereotypes xmi:id="_1GTJVDxxEe6JP61YZFrUJg" name="LegacyStyledElement">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHkC4DxxEe6JP61YZFrUJg"/>
+      </stereotypes>
+      <visibility xmi:id="_1GTJVTxxEe6JP61YZFrUJg" label="-"/>
+      <cardinality xmi:id="_1GTJVjxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+      <type xmi:id="_1GTJVzxxEe6JP61YZFrUJg" name="NodeDouble">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xDUcEDxxEe6JP61YZFrUJg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1GTJWDxxEe6JP61YZFrUJg" name="last">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xHkC4TxxEe6JP61YZFrUJg"/>
+      <stereotypes xmi:id="_1GTJWTxxEe6JP61YZFrUJg" name="LegacyStyledElement">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHkC4jxxEe6JP61YZFrUJg"/>
+      </stereotypes>
+      <visibility xmi:id="_1GTJWjxxEe6JP61YZFrUJg" label="-"/>
+      <cardinality xmi:id="_1GTJWzxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+      <type xmi:id="_1GTJXDxxEe6JP61YZFrUJg" name="NodeDouble">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xDUcEDxxEe6JP61YZFrUJg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1GTJXTxxEe6JP61YZFrUJg" name="numItems">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xHkC4zxxEe6JP61YZFrUJg"/>
+      <stereotypes xmi:id="_1GTJXjxxEe6JP61YZFrUJg" name="LegacyStyledElement">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHkp8DxxEe6JP61YZFrUJg"/>
+      </stereotypes>
+      <visibility xmi:id="_1GTJXzxxEe6JP61YZFrUJg" label="-"/>
+      <cardinality xmi:id="_1GTJYDxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+      <type xmi:id="_1GTJYTxxEe6JP61YZFrUJg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1GTwYDxxEe6JP61YZFrUJg" name="addFirst">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xHX1oDxxEe6JP61YZFrUJg"/>
+      <stereotypes xmi:id="_1GTwYTxxEe6JP61YZFrUJg" name="LegacyStyledElement">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHX1ojxxEe6JP61YZFrUJg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1GTwYjxxEe6JP61YZFrUJg" name="Annotations">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHX1ozxxEe6JP61YZFrUJg"/>
+      </stereotypes>
+      <visibility xmi:id="_1GTwYzxxEe6JP61YZFrUJg" label="+"/>
+      <cardinality xmi:id="_1GTwZDxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1GTwZTxxEe6JP61YZFrUJg" name="n">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHX1oTxxEe6JP61YZFrUJg"/>
+        <cardinality xmi:id="_1GTwZjxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+        <type xmi:id="_1GTwZzxxEe6JP61YZFrUJg" name="Object">
+          <modelElement href="centralPacientesDobleEnlazada.uml#_xHTkMTxxEe6JP61YZFrUJg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1GTwaDxxEe6JP61YZFrUJg" name="addLast">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xHYcsDxxEe6JP61YZFrUJg"/>
+      <stereotypes xmi:id="_1GTwaTxxEe6JP61YZFrUJg" name="LegacyStyledElement">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHYcsjxxEe6JP61YZFrUJg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1GTwajxxEe6JP61YZFrUJg" name="Annotations">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHYcszxxEe6JP61YZFrUJg"/>
+      </stereotypes>
+      <visibility xmi:id="_1GTwazxxEe6JP61YZFrUJg" label="+"/>
+      <cardinality xmi:id="_1GTwbDxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1GTwbTxxEe6JP61YZFrUJg" name="n">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHYcsTxxEe6JP61YZFrUJg"/>
+        <cardinality xmi:id="_1GTwbjxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+        <type xmi:id="_1GTwbzxxEe6JP61YZFrUJg" name="Object">
+          <modelElement href="centralPacientesDobleEnlazada.uml#_xHTkMTxxEe6JP61YZFrUJg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1GTwcDxxEe6JP61YZFrUJg" name="delete">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xHZDwTxxEe6JP61YZFrUJg"/>
+      <stereotypes xmi:id="_1GTwcTxxEe6JP61YZFrUJg" name="LegacyStyledElement">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHZDwzxxEe6JP61YZFrUJg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1GTwcjxxEe6JP61YZFrUJg" name="Annotations">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHZDxDxxEe6JP61YZFrUJg"/>
+      </stereotypes>
+      <visibility xmi:id="_1GTwczxxEe6JP61YZFrUJg" label="+"/>
+      <cardinality xmi:id="_1GTwdDxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1GTwdTxxEe6JP61YZFrUJg" name="clave">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHZDwjxxEe6JP61YZFrUJg"/>
+        <cardinality xmi:id="_1GTwdjxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+        <type xmi:id="_1GTwdzxxEe6JP61YZFrUJg" name="Object">
+          <modelElement href="centralPacientesDobleEnlazada.uml#_xHTkMTxxEe6JP61YZFrUJg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1IT7gDxxEe6JP61YZFrUJg" comments="_1HTO4DxxEe6JP61YZFrUJg" targetConnectionVisual="_1H4dsDxxEe6JP61YZFrUJg" name="SingleLinkedList" associationsOut="_1IIVUDxxEe6JP61YZFrUJg _1IRfQDxxEe6JP61YZFrUJg" generalizations="_1NIxIDxxEe6JP61YZFrUJg" subclassedBy="_1IAZgDxxEe6JP61YZFrUJg">
+    <modelElement href="centralPacientesDobleEnlazada.uml#_xDiegDxxEe6JP61YZFrUJg"/>
+    <visualProperties xmi:id="_1IT7gTxxEe6JP61YZFrUJg" position="504.0,422.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1IT7gjxxEe6JP61YZFrUJg" label="+"/>
+    <attributes xmi:id="_1IT7gzxxEe6JP61YZFrUJg" name="first">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xHo7YDxxEe6JP61YZFrUJg"/>
+      <stereotypes xmi:id="_1IT7hDxxEe6JP61YZFrUJg" name="LegacyStyledElement">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHpicDxxEe6JP61YZFrUJg"/>
+      </stereotypes>
+      <visibility xmi:id="_1IT7hTxxEe6JP61YZFrUJg" label="-"/>
+      <cardinality xmi:id="_1IT7hjxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+      <type xmi:id="_1IT7hzxxEe6JP61YZFrUJg" name="NodeSingle">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xDW4UDxxEe6JP61YZFrUJg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1IT7iDxxEe6JP61YZFrUJg" name="last">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xHqJgDxxEe6JP61YZFrUJg"/>
+      <stereotypes xmi:id="_1IT7iTxxEe6JP61YZFrUJg" name="LegacyStyledElement">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHqwkDxxEe6JP61YZFrUJg"/>
+      </stereotypes>
+      <visibility xmi:id="_1IT7ijxxEe6JP61YZFrUJg" label="-"/>
+      <cardinality xmi:id="_1IT7izxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+      <type xmi:id="_1IT7jDxxEe6JP61YZFrUJg" name="NodeSingle">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xDW4UDxxEe6JP61YZFrUJg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1IT7jTxxEe6JP61YZFrUJg" name="numItems">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xHqwkTxxEe6JP61YZFrUJg"/>
+      <stereotypes xmi:id="_1IT7jjxxEe6JP61YZFrUJg" name="LegacyStyledElement">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHqwkjxxEe6JP61YZFrUJg"/>
+      </stereotypes>
+      <visibility xmi:id="_1IT7jzxxEe6JP61YZFrUJg" label="-"/>
+      <cardinality xmi:id="_1IT7kDxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+      <type xmi:id="_1IT7kTxxEe6JP61YZFrUJg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1IT7kjxxEe6JP61YZFrUJg" name="SingleLinkedList">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xDjFkDxxEe6JP61YZFrUJg"/>
+      <keywords xmi:id="_1IT7kzxxEe6JP61YZFrUJg" keyword="create"/>
+      <visibility xmi:id="_1IT7lDxxEe6JP61YZFrUJg" label="+"/>
+      <cardinality xmi:id="_1IT7lTxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1IT7ljxxEe6JP61YZFrUJg">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xDjFkzxxEe6JP61YZFrUJg"/>
+        <type xmi:id="_1IT7lzxxEe6JP61YZFrUJg" name="SingleLinkedList">
+          <modelElement href="centralPacientesDobleEnlazada.uml#_xDiegDxxEe6JP61YZFrUJg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1IT7mDxxEe6JP61YZFrUJg" name="isEmpty">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xDjsoDxxEe6JP61YZFrUJg"/>
+      <stereotypes xmi:id="_1IT7mTxxEe6JP61YZFrUJg" name="LegacyStyledElement">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xDkTsDxxEe6JP61YZFrUJg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1IT7mjxxEe6JP61YZFrUJg" name="Annotations">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xDk6wDxxEe6JP61YZFrUJg"/>
+      </stereotypes>
+      <visibility xmi:id="_1IT7mzxxEe6JP61YZFrUJg" label="+"/>
+      <cardinality xmi:id="_1IT7nDxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1IT7nTxxEe6JP61YZFrUJg">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xDjsoTxxEe6JP61YZFrUJg"/>
+        <type xmi:id="_1IT7njxxEe6JP61YZFrUJg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1IT7nzxxEe6JP61YZFrUJg" name="toString">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xDk6wjxxEe6JP61YZFrUJg"/>
+      <stereotypes xmi:id="_1IT7oDxxEe6JP61YZFrUJg" name="LegacyStyledElement">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xDlh0DxxEe6JP61YZFrUJg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1IT7oTxxEe6JP61YZFrUJg" name="Annotations">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xDmI4DxxEe6JP61YZFrUJg"/>
+      </stereotypes>
+      <visibility xmi:id="_1IT7ojxxEe6JP61YZFrUJg" label="+"/>
+      <cardinality xmi:id="_1IT7ozxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1IT7pDxxEe6JP61YZFrUJg">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xDk6wzxxEe6JP61YZFrUJg"/>
+        <type xmi:id="_1IT7pTxxEe6JP61YZFrUJg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1IT7pjxxEe6JP61YZFrUJg" name="addFirst">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xHcHEzxxEe6JP61YZFrUJg"/>
+      <stereotypes xmi:id="_1IT7pzxxEe6JP61YZFrUJg" name="LegacyStyledElement">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHcuIDxxEe6JP61YZFrUJg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1IT7qDxxEe6JP61YZFrUJg" name="Annotations">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHcuITxxEe6JP61YZFrUJg"/>
+      </stereotypes>
+      <visibility xmi:id="_1IT7qTxxEe6JP61YZFrUJg" label="+"/>
+      <cardinality xmi:id="_1IT7qjxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1IT7qzxxEe6JP61YZFrUJg" name="n">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHcHFDxxEe6JP61YZFrUJg"/>
+        <cardinality xmi:id="_1IT7rDxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+        <type xmi:id="_1IT7rTxxEe6JP61YZFrUJg" name="Object">
+          <modelElement href="centralPacientesDobleEnlazada.uml#_xHTkMTxxEe6JP61YZFrUJg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1IT7rjxxEe6JP61YZFrUJg" name="addLast">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xHcuIzxxEe6JP61YZFrUJg"/>
+      <stereotypes xmi:id="_1IT7rzxxEe6JP61YZFrUJg" name="LegacyStyledElement">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHdVMDxxEe6JP61YZFrUJg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1IT7sDxxEe6JP61YZFrUJg" name="Annotations">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHdVMTxxEe6JP61YZFrUJg"/>
+      </stereotypes>
+      <visibility xmi:id="_1IT7sTxxEe6JP61YZFrUJg" label="+"/>
+      <cardinality xmi:id="_1IT7sjxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1IT7szxxEe6JP61YZFrUJg" name="content">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHcuJDxxEe6JP61YZFrUJg"/>
+        <cardinality xmi:id="_1IT7tDxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+        <type xmi:id="_1IT7tTxxEe6JP61YZFrUJg" name="Object">
+          <modelElement href="centralPacientesDobleEnlazada.uml#_xHTkMTxxEe6JP61YZFrUJg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1IT7tjxxEe6JP61YZFrUJg" name="search">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xHd8QTxxEe6JP61YZFrUJg"/>
+      <stereotypes xmi:id="_1IT7tzxxEe6JP61YZFrUJg" name="LegacyStyledElement">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHd8RDxxEe6JP61YZFrUJg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1IT7uDxxEe6JP61YZFrUJg" name="Annotations">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHejUDxxEe6JP61YZFrUJg"/>
+      </stereotypes>
+      <visibility xmi:id="_1IT7uTxxEe6JP61YZFrUJg" label="+"/>
+      <cardinality xmi:id="_1IT7ujxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1IT7uzxxEe6JP61YZFrUJg">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHd8QzxxEe6JP61YZFrUJg"/>
+        <type xmi:id="_1IT7vDxxEe6JP61YZFrUJg" name="Object">
+          <modelElement href="centralPacientesDobleEnlazada.uml#_xHTkMTxxEe6JP61YZFrUJg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1IT7vTxxEe6JP61YZFrUJg" name="clave">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHd8QjxxEe6JP61YZFrUJg"/>
+        <cardinality xmi:id="_1IT7vjxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+        <type xmi:id="_1IT7vzxxEe6JP61YZFrUJg" name="Object">
+          <modelElement href="centralPacientesDobleEnlazada.uml#_xHTkMTxxEe6JP61YZFrUJg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1IT7wDxxEe6JP61YZFrUJg" name="delete">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xHejUjxxEe6JP61YZFrUJg"/>
+      <stereotypes xmi:id="_1IT7wTxxEe6JP61YZFrUJg" name="LegacyStyledElement">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHfKYTxxEe6JP61YZFrUJg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1IT7wjxxEe6JP61YZFrUJg" name="Annotations">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHfKYjxxEe6JP61YZFrUJg"/>
+      </stereotypes>
+      <visibility xmi:id="_1IT7wzxxEe6JP61YZFrUJg" label="+"/>
+      <cardinality xmi:id="_1IT7xDxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1IT7xTxxEe6JP61YZFrUJg" name="clave">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHfKYDxxEe6JP61YZFrUJg"/>
+        <cardinality xmi:id="_1IT7xjxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+        <type xmi:id="_1IT7xzxxEe6JP61YZFrUJg" name="Object">
+          <modelElement href="centralPacientesDobleEnlazada.uml#_xHTkMTxxEe6JP61YZFrUJg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1JnjEDxxEe6JP61YZFrUJg" comments="_1JRk0DxxEe6JP61YZFrUJg" targetConnectionVisual="_1JSL4DxxEe6JP61YZFrUJg" name="NodeSingle" associationsIn="_1I6YcDxxEe6JP61YZFrUJg _1IIVUDxxEe6JP61YZFrUJg _1IRfQDxxEe6JP61YZFrUJg" associationsOut="_1I6YcDxxEe6JP61YZFrUJg _1JauwDxxEe6JP61YZFrUJg" generalizations="_1K2SIDxxEe6JP61YZFrUJg" subclassedBy="_1JZgoDxxEe6JP61YZFrUJg">
+    <modelElement href="centralPacientesDobleEnlazada.uml#_xDW4UDxxEe6JP61YZFrUJg"/>
+    <visualProperties xmi:id="_1JnjETxxEe6JP61YZFrUJg" position="133.0,184.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1JnjEjxxEe6JP61YZFrUJg" label="+"/>
+    <attributes xmi:id="_1JnjEzxxEe6JP61YZFrUJg" name="content">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xHmfITxxEe6JP61YZFrUJg"/>
+      <stereotypes xmi:id="_1JnjFDxxEe6JP61YZFrUJg" name="LegacyStyledElement">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHmfIjxxEe6JP61YZFrUJg"/>
+      </stereotypes>
+      <visibility xmi:id="_1JnjFTxxEe6JP61YZFrUJg" label="+"/>
+      <cardinality xmi:id="_1JnjFjxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+      <type xmi:id="_1JnjFzxxEe6JP61YZFrUJg" name="Object">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHTkMTxxEe6JP61YZFrUJg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1JnjGDxxEe6JP61YZFrUJg" name="next">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xHoUVTxxEe6JP61YZFrUJg"/>
+      <visibility xmi:id="_1JnjGTxxEe6JP61YZFrUJg" label="+"/>
+      <cardinality xmi:id="_1JnjGjxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+      <type xmi:id="_1JnjGzxxEe6JP61YZFrUJg" name="NodeSingle">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xDW4UDxxEe6JP61YZFrUJg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1JnjHDxxEe6JP61YZFrUJg" name="toString">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xDYGcDxxEe6JP61YZFrUJg"/>
+      <stereotypes xmi:id="_1JnjHTxxEe6JP61YZFrUJg" name="LegacyStyledElement">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xDYtgTxxEe6JP61YZFrUJg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1JnjHjxxEe6JP61YZFrUJg" name="Annotations">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xDaisDxxEe6JP61YZFrUJg"/>
+      </stereotypes>
+      <visibility xmi:id="_1JnjHzxxEe6JP61YZFrUJg" label="+"/>
+      <cardinality xmi:id="_1JnjIDxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1JnjITxxEe6JP61YZFrUJg">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xDYtgDxxEe6JP61YZFrUJg"/>
+        <type xmi:id="_1JnjIjxxEe6JP61YZFrUJg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1JnjIzxxEe6JP61YZFrUJg" comments="_1JauwTxxEe6JP61YZFrUJg" targetConnectionVisual="_1JbV0DxxEe6JP61YZFrUJg" name="NodeSingle">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xHbgAzxxEe6JP61YZFrUJg"/>
+      <keywords xmi:id="_1JnjJDxxEe6JP61YZFrUJg" keyword="create"/>
+      <visibility xmi:id="_1JnjJTxxEe6JP61YZFrUJg" label="+"/>
+      <cardinality xmi:id="_1JnjJjxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1JnjJzxxEe6JP61YZFrUJg">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHcHEjxxEe6JP61YZFrUJg"/>
+        <type xmi:id="_1JnjKDxxEe6JP61YZFrUJg" name="NodeSingle">
+          <modelElement href="centralPacientesDobleEnlazada.uml#_xDW4UDxxEe6JP61YZFrUJg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1JnjKTxxEe6JP61YZFrUJg" name="c">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHbgBDxxEe6JP61YZFrUJg"/>
+        <cardinality xmi:id="_1JnjKjxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+        <type xmi:id="_1JnjKzxxEe6JP61YZFrUJg" name="Object">
+          <modelElement href="centralPacientesDobleEnlazada.uml#_xHTkMTxxEe6JP61YZFrUJg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1KIgcDxxEe6JP61YZFrUJg" comments="_1JfnQDxxEe6JP61YZFrUJg" targetConnectionVisual="_1JgOUDxxEe6JP61YZFrUJg" name="NodeDouble" associationsIn="_1JdLADxxEe6JP61YZFrUJg _1GNCsDxxEe6JP61YZFrUJg _1GRUIDxxEe6JP61YZFrUJg" associationsOut="_1JdLADxxEe6JP61YZFrUJg" generalizations="_1JZgoDxxEe6JP61YZFrUJg">
+    <modelElement href="centralPacientesDobleEnlazada.uml#_xDUcEDxxEe6JP61YZFrUJg"/>
+    <visualProperties xmi:id="_1KIgcTxxEe6JP61YZFrUJg" position="128.0,492.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1KIgcjxxEe6JP61YZFrUJg" label="+"/>
+    <attributes xmi:id="_1KIgczxxEe6JP61YZFrUJg" name="prev">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xHkp8TxxEe6JP61YZFrUJg"/>
+      <stereotypes xmi:id="_1KIgdDxxEe6JP61YZFrUJg" name="LegacyStyledElement">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHkp8jxxEe6JP61YZFrUJg"/>
+      </stereotypes>
+      <visibility xmi:id="_1KIgdTxxEe6JP61YZFrUJg" label="+"/>
+      <cardinality xmi:id="_1KIgdjxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+      <type xmi:id="_1KIgdzxxEe6JP61YZFrUJg" name="NodeDouble">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xDUcEDxxEe6JP61YZFrUJg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1KIgeDxxEe6JP61YZFrUJg" comments="_1JhccDxxEe6JP61YZFrUJg" targetConnectionVisual="_1JhccTxxEe6JP61YZFrUJg" name="NodeDouble">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xHa48DxxEe6JP61YZFrUJg"/>
+      <keywords xmi:id="_1KIgeTxxEe6JP61YZFrUJg" keyword="create"/>
+      <visibility xmi:id="_1KIgejxxEe6JP61YZFrUJg" label="+"/>
+      <cardinality xmi:id="_1KIgezxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1KIgfDxxEe6JP61YZFrUJg">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHbgAjxxEe6JP61YZFrUJg"/>
+        <type xmi:id="_1KIgfTxxEe6JP61YZFrUJg" name="NodeDouble">
+          <modelElement href="centralPacientesDobleEnlazada.uml#_xDUcEDxxEe6JP61YZFrUJg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1KIgfjxxEe6JP61YZFrUJg" name="c">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHa48TxxEe6JP61YZFrUJg"/>
+        <cardinality xmi:id="_1KIgfzxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+        <type xmi:id="_1KIggDxxEe6JP61YZFrUJg" name="Object">
+          <modelElement href="centralPacientesDobleEnlazada.uml#_xHTkMTxxEe6JP61YZFrUJg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_1LP6wDxxEe6JP61YZFrUJg" name="Node" associationsIn="_1LB4UDxxEe6JP61YZFrUJg" subclassedBy="_1K2SIDxxEe6JP61YZFrUJg">
+    <modelElement href="centralPacientesDobleEnlazada.uml#_xDNHUDxxEe6JP61YZFrUJg"/>
+    <visualProperties xmi:id="_1LP6wTxxEe6JP61YZFrUJg" position="191.0,31.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1LP6wjxxEe6JP61YZFrUJg" label="+"/>
+    <attributes xmi:id="_1LP6wzxxEe6JP61YZFrUJg" name="content">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xDOVcDxxEe6JP61YZFrUJg"/>
+      <visibility xmi:id="_1LP6xDxxEe6JP61YZFrUJg" label="~"/>
+      <cardinality xmi:id="_1LP6xTxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+      <type xmi:id="_1LP6xjxxEe6JP61YZFrUJg" name="Object">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHTkMTxxEe6JP61YZFrUJg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1LP6xzxxEe6JP61YZFrUJg" name="toString">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xDQxsDxxEe6JP61YZFrUJg"/>
+      <visibility xmi:id="_1LP6yDxxEe6JP61YZFrUJg" label="~"/>
+      <cardinality xmi:id="_1LP6yTxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1LP6yjxxEe6JP61YZFrUJg">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xDRYwDxxEe6JP61YZFrUJg"/>
+        <type xmi:id="_1LP6yzxxEe6JP61YZFrUJg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_1Nf9gDxxEe6JP61YZFrUJg" comments="_1LwREDxxEe6JP61YZFrUJg" targetConnectionVisual="_1MFBMDxxEe6JP61YZFrUJg" name="List" subclassedBy="_1NIxIDxxEe6JP61YZFrUJg">
+    <modelElement href="centralPacientesDobleEnlazada.uml#_xDIO0DxxEe6JP61YZFrUJg"/>
+    <visualProperties xmi:id="_1Nf9gTxxEe6JP61YZFrUJg" position="518.0,249.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1NgkkDxxEe6JP61YZFrUJg" label="+"/>
+    <attributes xmi:id="_1NgkkTxxEe6JP61YZFrUJg" name="empty">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xDKEADxxEe6JP61YZFrUJg"/>
+      <visibility xmi:id="_1NgkkjxxEe6JP61YZFrUJg" label="+"/>
+      <cardinality xmi:id="_1NgkkzxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+      <type xmi:id="_1NgklDxxEe6JP61YZFrUJg" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1NgklTxxEe6JP61YZFrUJg" name="addFirst">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xHZq0DxxEe6JP61YZFrUJg"/>
+      <visibility xmi:id="_1NgkljxxEe6JP61YZFrUJg" label="+"/>
+      <cardinality xmi:id="_1NgklzxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1NgkmDxxEe6JP61YZFrUJg" name="n">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHZq0TxxEe6JP61YZFrUJg"/>
+        <cardinality xmi:id="_1NgkmTxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+        <type xmi:id="_1NgkmjxxEe6JP61YZFrUJg" name="Object">
+          <modelElement href="centralPacientesDobleEnlazada.uml#_xHTkMTxxEe6JP61YZFrUJg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1NgkmzxxEe6JP61YZFrUJg" name="addLast">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xHaR4DxxEe6JP61YZFrUJg"/>
+      <visibility xmi:id="_1NgknDxxEe6JP61YZFrUJg" label="+"/>
+      <cardinality xmi:id="_1NgknTxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1NgknjxxEe6JP61YZFrUJg" name="n">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHaR4TxxEe6JP61YZFrUJg"/>
+        <cardinality xmi:id="_1NgknzxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+        <type xmi:id="_1NgkoDxxEe6JP61YZFrUJg" name="Object">
+          <modelElement href="centralPacientesDobleEnlazada.uml#_xHTkMTxxEe6JP61YZFrUJg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1NgkoTxxEe6JP61YZFrUJg" name="search">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xHaR4jxxEe6JP61YZFrUJg"/>
+      <visibility xmi:id="_1NgkojxxEe6JP61YZFrUJg" label="+"/>
+      <cardinality xmi:id="_1NgkozxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1NgkpDxxEe6JP61YZFrUJg">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHaR5DxxEe6JP61YZFrUJg"/>
+        <type xmi:id="_1NgkpTxxEe6JP61YZFrUJg" name="Object">
+          <modelElement href="centralPacientesDobleEnlazada.uml#_xHTkMTxxEe6JP61YZFrUJg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1NgkpjxxEe6JP61YZFrUJg" name="clave">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHaR4zxxEe6JP61YZFrUJg"/>
+        <cardinality xmi:id="_1NgkpzxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+        <type xmi:id="_1NgkqDxxEe6JP61YZFrUJg" name="Object">
+          <modelElement href="centralPacientesDobleEnlazada.uml#_xHTkMTxxEe6JP61YZFrUJg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1NgkqTxxEe6JP61YZFrUJg" name="delete">
+      <modelElement href="centralPacientesDobleEnlazada.uml#_xHaR5TxxEe6JP61YZFrUJg"/>
+      <visibility xmi:id="_1NgkqjxxEe6JP61YZFrUJg" label="+"/>
+      <cardinality xmi:id="_1NgkqzxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1NgkrDxxEe6JP61YZFrUJg" name="clave">
+        <modelElement href="centralPacientesDobleEnlazada.uml#_xHaR5jxxEe6JP61YZFrUJg"/>
+        <cardinality xmi:id="_1NgkrTxxEe6JP61YZFrUJg" label="1" max="1" min="1"/>
+        <type xmi:id="_1NgkrjxxEe6JP61YZFrUJg" name="Object">
+          <modelElement href="centralPacientesDobleEnlazada.uml#_xHTkMTxxEe6JP61YZFrUJg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
