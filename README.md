@@ -85,7 +85,7 @@ Desarrollo del tema de listas doblemente enlazadas, con algritmos recursivos
 **Laboratorio**
 Este viernes no tendremos seguimiento, los estudiantes van a trabajar en la entrega de la tarea integradora y van a resolver dudas sobre los algoritmos recursivos.
 
-# Equipos de trabajo de la tarea integradora
+### Equipos de trabajo de la tarea integradora
 Equipos de trabajo
 Los equipos deben estar registrados en una hoja de equipos y en GitHub classroom. Teniendo en cuenta la cantidad total de estudiantes, los equipos serán de **máximo 3, mínimo 2** integrantes.
 
@@ -94,5 +94,17 @@ Los equipos deben estar registrados en una hoja de equipos y en GitHub classroom
 1. Llenar la siguiente hoja de cálculo con los nombres y los usuarios de gitHub de cada integrante el identificador del equipo (Ex) en la hoja de registro se usará en el siguiente paso [link a la hoja de registro](https://docs.google.com/spreadsheets/d/1Eq5AzkASGWOzqwoFPxnIVTVAOlDnvRdU/edit?usp=sharing&ouid=117715056210468312762&rtpof=true&sd=true).
 2. Cada estudiante debe ingresar a GitHub classroom  usando la invitación y el identificador de su equipo.  Tenga en cuenta que el primer integrante en registrarse debe crear el equipo usando el identificador de la hoja de registro [Invitación](https://classroom.github.com/a/W5YAjm2v). 
 
+## Semana 5
+**Sesión 1:** Taller de Git/GitHub y control de versiones
 
+
+**Sesión 2**
+Desarrollo del tema de árboles
+
+* [Slides]()
+
+* [Tablero de miro]()
+
+**Laboratorio**
+Problemas con árboles
 
