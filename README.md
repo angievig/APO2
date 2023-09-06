@@ -116,7 +116,7 @@ Seguimiento
 
 **Sesión 2:** Eliminar  un nodo de un árbol binario de búsqueda
 
-* [Material Adicional, Sección 12.3 capítulo 12 del libro de Cormen]
+* [Material Adicional, Sección 12.3 capítulo 12 del libro de Cormen](http://monet.en.kku.ac.th/courses/EN812303/book/Introduction.to.Algorithms.4th.Edition.pdf)
 
 **Laboratorio**
 Ejemplo de Comparable (agregar objetos) y trabajo de la tarea integradora
