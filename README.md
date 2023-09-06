@@ -101,10 +101,22 @@ Los equipos deben estar registrados en una hoja de equipos y en GitHub classroom
 **Sesión 2**
 Desarrollo del tema de árboles
 
-* [Slides]()
+* [Slides](https://docs.google.com/presentation/d/1ZobqEAaTeQ2X2hBXmkPp_IEkWFNCwqyxVVSbppa7wvA/edit?usp=drive_link)
 
-* [Tablero de miro]()
+* [Diseño](https://drive.google.com/file/d/17tCWwQqLTMmg22LEXePc072WbBsSNGiM/view?usp=sharing)
 
 **Laboratorio**
-Problemas con árboles
+Seguimiento
 
+## Semana 6
+**Sesión 1:** Más ejercicios de árboles binarios, feedback del seg y quiz
+
+* [Slides](https://docs.google.com/presentation/d/12dEOSug3Z8IG-eadavNQ-HJjVy3G5Hn_7-ByHJaY63Q/edit?usp=sharing)
+* [Material a revisar](https://www.enjoyalgorithms.com/blog/deletion-in-binary-search-tree)
+
+**Sesión 2:** Eliminar  un nodo de un árbol binario de búsqueda
+
+* [Material Adicional, Sección 12.3 capítulo 12 del libro de Cormen]
+
+**Laboratorio**
+Ejemplo de Comparable (agregar objetos) y trabajo de la tarea integradora
