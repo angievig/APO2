@@ -76,6 +76,7 @@ Problemas con listas
 Desarrollo del tema de listas doblemente enlazadas, con algritmos recursivos
 
 *[Enunciado de la TI1](https://docs.google.com/document/d/1nUKmEgQEIFwKtmG8eyzxZotsXMF9cc4s/edit?usp=sharing&ouid=117715056210468312762&rtpof=true&sd=true)
+*[Tablero de la explicación del usao de la lista enlazada](https://miro.com/app/board/uXjVMrZtPxE=/?share_link_id=236417454451)
 
 *[Slides](https://docs.google.com/presentation/d/182ZlVjVQQFQGYO0PKBJZ_unsbZMyP-b2E4nfOEoL1tA/edit?usp=sharing)
 
@@ -84,3 +85,52 @@ Desarrollo del tema de listas doblemente enlazadas, con algritmos recursivos
 **Laboratorio**
 Este viernes no tendremos seguimiento, los estudiantes van a trabajar en la entrega de la tarea integradora y van a resolver dudas sobre los algoritmos recursivos.
 
+### Equipos de trabajo de la tarea integradora
+Equipos de trabajo
+Los equipos deben estar registrados en una hoja de equipos y en GitHub classroom. Teniendo en cuenta la cantidad total de estudiantes, los equipos serán de **máximo 3, mínimo 2** integrantes.
+
+**Para registrar su equipo usted deberá:**
+
+1. Llenar la siguiente hoja de cálculo con los nombres y los usuarios de gitHub de cada integrante el identificador del equipo (Ex) en la hoja de registro se usará en el siguiente paso [link a la hoja de registro](https://docs.google.com/spreadsheets/d/1Eq5AzkASGWOzqwoFPxnIVTVAOlDnvRdU/edit?usp=sharing&ouid=117715056210468312762&rtpof=true&sd=true).
+2. Cada estudiante debe ingresar a GitHub classroom  usando la invitación y el identificador de su equipo.  Tenga en cuenta que el primer integrante en registrarse debe crear el equipo usando el identificador de la hoja de registro [Invitación](https://classroom.github.com/a/W5YAjm2v). 
+
+## Semana 5
+**Sesión 1:** Taller de Git/GitHub y control de versiones
+
+
+**Sesión 2**
+Desarrollo del tema de árboles
+
+* [Slides](https://docs.google.com/presentation/d/1ZobqEAaTeQ2X2hBXmkPp_IEkWFNCwqyxVVSbppa7wvA/edit?usp=drive_link)
+
+* [Diseño](https://drive.google.com/file/d/17tCWwQqLTMmg22LEXePc072WbBsSNGiM/view?usp=sharing)
+
+**Laboratorio**
+Seguimiento
+
+## Semana 6
+**Sesión 1:** Más ejercicios de árboles binarios, feedback del seg y quiz
+
+* [Slides](https://docs.google.com/presentation/d/12dEOSug3Z8IG-eadavNQ-HJjVy3G5Hn_7-ByHJaY63Q/edit?usp=sharing)
+* [Material a revisar](https://www.enjoyalgorithms.com/blog/deletion-in-binary-search-tree)
+
+**Sesión 2:** Eliminar  un nodo de un árbol binario de búsqueda
+
+* [Material Adicional, Sección 12.3 capítulo 12 del libro de Cormen](http://monet.en.kku.ac.th/courses/EN812303/book/Introduction.to.Algorithms.4th.Edition.pdf)
+
+**Laboratorio**
+Ejemplo de Comparable (agregar objetos) y trabajo de la tarea integradora
+
+## Semana 7
+**Sesión 1:** Excepciones, parte 1
+
+* [Slides](https://docs.google.com/presentation/d/1r5dElqqP-3c-4nt61YYXh8JLLQRqZ6kCwVfgSuIgP1w/edit?usp=sharing)
+* [Ejercicio - archivo Main.java](https://drive.google.com/file/d/1b7l9BbhmznpkOSC8jz8dyBhZ-1Q29u_C/view?usp=drive_link)
+* [Hoja de trabajo](https://docs.google.com/document/d/19xfTotV7OMKAUGMwE1ekSu0FhscJ0I-xNLVAtp4sKxY/edit?usp=sharing)
+* 
+
+**Sesión 2:** Excepciones parte 2, continuar con la hoja de trabajo y el proyecto en donde el programador implementa sus propias clases de excepción
+
+
+**Laboratorio**
+Seguimiento de excepciones, calificable
