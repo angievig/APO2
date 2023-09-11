@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_JlHPAEd3Ee6B-IBYuEX-8Q" name="aplicacionTrees">
+    <eAnnotations xmi:id="_JvD1MEd3Ee6B-IBYuEX-8Q" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_JvFDUEd3Ee6B-IBYuEX-8Q" source="codegen">
+        <details xmi:id="_JvFDUUd3Ee6B-IBYuEX-8Q" key="codegenDirectory" value="/aplicacionTrees/src"/>
+        <details xmi:id="_M4rRgEd3Ee6B-IBYuEX-8Q" key="AssociatedSourceCode" value="/aplicacionTrees/src/util/NodeType.java;519115227/1;/aplicacionTrees/src/ui/Main.java;1841386226/1;/aplicacionTrees/src/util/BST.java;4031997828/1;/aplicacionTrees/src/util/BSTNode.java;2820205280/1;/aplicacionTrees/src/util/Collection.java;909563523/1;/aplicacionTrees/src/util/Tree.java;1573436910/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_J-iboEd3Ee6B-IBYuEX-8Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_J-n7MEd3Ee6B-IBYuEX-8Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_J-oiQEd3Ee6B-IBYuEX-8Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_J-oiQUd3Ee6B-IBYuEX-8Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_J-oiQkd3Ee6B-IBYuEX-8Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_J-oiQ0d3Ee6B-IBYuEX-8Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_J-pJUEd3Ee6B-IBYuEX-8Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_J-pJUUd3Ee6B-IBYuEX-8Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_J-pJUkd3Ee6B-IBYuEX-8Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_J-62IEd3Ee6B-IBYuEX-8Q" name="util">
+      <packagedElement xmi:type="uml:Class" xmi:id="_J_p18Ed3Ee6B-IBYuEX-8Q" name="BST">
+        <ownedAttribute xmi:id="_KDw54Ed3Ee6B-IBYuEX-8Q" name="root" visibility="private" type="_J_4fcEd3Ee6B-IBYuEX-8Q" association="_KFEhcEd3Ee6B-IBYuEX-8Q"/>
+        <ownedAttribute xmi:id="_KDyIAUd3Ee6B-IBYuEX-8Q" name="size" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_KDB6EEd3Ee6B-IBYuEX-8Q" client="_J_p18Ed3Ee6B-IBYuEX-8Q" supplier="_KAYOsEd3Ee6B-IBYuEX-8Q" contract="_KAYOsEd3Ee6B-IBYuEX-8Q"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_KEc2YEd3Ee6B-IBYuEX-8Q" name="BST" specification="_J_sSMEd3Ee6B-IBYuEX-8Q">
+          <ownedParameter xmi:id="_KEc2YUd3Ee6B-IBYuEX-8Q" type="_J_p18Ed3Ee6B-IBYuEX-8Q" direction="return"/>
+          <language>java</language>
+          <body>root = null;
+		size =0;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_KEc2Ykd3Ee6B-IBYuEX-8Q" name="isEmpty" specification="_J_uucEd3Ee6B-IBYuEX-8Q">
+          <ownedParameter xmi:id="_KEc2Y0d3Ee6B-IBYuEX-8Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return (root ==null);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_KEc2ZEd3Ee6B-IBYuEX-8Q" name="add" specification="_KDRxsUd3Ee6B-IBYuEX-8Q">
+          <ownedParameter xmi:id="_KEc2ZUd3Ee6B-IBYuEX-8Q" name="n" type="_KDQjkkd3Ee6B-IBYuEX-8Q"/>
+          <language>java</language>
+          <body>if (root == null)
+			root = new BSTNode((Comparable)n); //FIXME cst para trabajar con enteros en la clase
+		else
+			root.add(n);
+		size++;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_KEddcEd3Ee6B-IBYuEX-8Q" name="search" specification="_KDcw0Ed3Ee6B-IBYuEX-8Q">
+          <ownedParameter xmi:id="_KEddcUd3Ee6B-IBYuEX-8Q" name="clave" type="_KDQjkkd3Ee6B-IBYuEX-8Q"/>
+          <ownedParameter xmi:id="_KEddckd3Ee6B-IBYuEX-8Q" type="_KDQjkkd3Ee6B-IBYuEX-8Q" direction="return"/>
+          <language>java</language>
+          <body>Object found= null;
+		if (root != null)
+			found = root.search(clave);
+		
+		return found;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_KEhu4Ed3Ee6B-IBYuEX-8Q" name="print" specification="_J_2qQEd3Ee6B-IBYuEX-8Q">
+          <ownedParameter xmi:id="_KEiV8Ed3Ee6B-IBYuEX-8Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String out= &quot;&quot;;
+		
+		if(root ==null)
+			out= &quot;empty tree&quot;;
+		else
+			out= root.print();
+		return out;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_J_sSMEd3Ee6B-IBYuEX-8Q" name="BST" method="_KEc2YEd3Ee6B-IBYuEX-8Q">
+          <eAnnotations xmi:id="_J_s5QEd3Ee6B-IBYuEX-8Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_J_tgUEd3Ee6B-IBYuEX-8Q" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_J_uHYEd3Ee6B-IBYuEX-8Q" type="_J_p18Ed3Ee6B-IBYuEX-8Q" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_J_uucEd3Ee6B-IBYuEX-8Q" name="isEmpty" method="_KEc2Ykd3Ee6B-IBYuEX-8Q">
+          <ownedParameter xmi:id="_J_uucUd3Ee6B-IBYuEX-8Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_J_2qQEd3Ee6B-IBYuEX-8Q" name="print" method="_KEhu4Ed3Ee6B-IBYuEX-8Q">
+          <ownedParameter xmi:id="_J_2qQUd3Ee6B-IBYuEX-8Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_KDRxsUd3Ee6B-IBYuEX-8Q" name="add" method="_KEc2ZEd3Ee6B-IBYuEX-8Q">
+          <ownedParameter xmi:id="_KDSYwEd3Ee6B-IBYuEX-8Q" name="n" type="_KDQjkkd3Ee6B-IBYuEX-8Q"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_KDcw0Ed3Ee6B-IBYuEX-8Q" name="search" method="_KEddcEd3Ee6B-IBYuEX-8Q">
+          <ownedParameter xmi:id="_KDcw0Ud3Ee6B-IBYuEX-8Q" name="clave" type="_KDQjkkd3Ee6B-IBYuEX-8Q"/>
+          <ownedParameter xmi:id="_KDf0IEd3Ee6B-IBYuEX-8Q" type="_KDQjkkd3Ee6B-IBYuEX-8Q" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_J_4fcEd3Ee6B-IBYuEX-8Q" name="BSTNode">
+        <ownedAttribute xmi:id="_KDzWIUd3Ee6B-IBYuEX-8Q" name="left" type="_J_4fcEd3Ee6B-IBYuEX-8Q" association="_KEw_cEd3Ee6B-IBYuEX-8Q"/>
+        <ownedAttribute xmi:id="_KD3nkEd3Ee6B-IBYuEX-8Q" name="right" type="_J_4fcEd3Ee6B-IBYuEX-8Q" association="_KE0CwEd3Ee6B-IBYuEX-8Q"/>
+        <ownedAttribute xmi:id="_KD4OoEd3Ee6B-IBYuEX-8Q" name="type" visibility="private" type="_KAEssEd3Ee6B-IBYuEX-8Q"/>
+        <ownedAttribute xmi:id="_KD41sEd3Ee6B-IBYuEX-8Q" name="content" type="_KDi3cEd3Ee6B-IBYuEX-8Q" association="_KE0Cwkd3Ee6B-IBYuEX-8Q"/>
+        <interfaceRealization xmi:id="_KDJO0Ed3Ee6B-IBYuEX-8Q" client="_J_4fcEd3Ee6B-IBYuEX-8Q" supplier="_KAYOsEd3Ee6B-IBYuEX-8Q" contract="_KAYOsEd3Ee6B-IBYuEX-8Q"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_KEkLIEd3Ee6B-IBYuEX-8Q" name="BSTNode" specification="_KDplIEd3Ee6B-IBYuEX-8Q">
+          <ownedParameter xmi:id="_KEkLIUd3Ee6B-IBYuEX-8Q" name="left" type="_J_4fcEd3Ee6B-IBYuEX-8Q"/>
+          <ownedParameter xmi:id="_KEkLIkd3Ee6B-IBYuEX-8Q" name="right" type="_J_4fcEd3Ee6B-IBYuEX-8Q"/>
+          <ownedParameter xmi:id="_KEkLI0d3Ee6B-IBYuEX-8Q" name="content" type="_KDi3cEd3Ee6B-IBYuEX-8Q"/>
+          <ownedParameter xmi:id="_KEkLJEd3Ee6B-IBYuEX-8Q" name="type" type="_KAEssEd3Ee6B-IBYuEX-8Q"/>
+          <ownedParameter xmi:id="_KEkLJUd3Ee6B-IBYuEX-8Q" type="_J_4fcEd3Ee6B-IBYuEX-8Q" direction="return"/>
+          <language>java</language>
+          <body>this.left = left;
+		this.right = right;
+		this.content = content;
+		this.type = type;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_KElZQEd3Ee6B-IBYuEX-8Q" name="BSTNode" specification="_KDqzQEd3Ee6B-IBYuEX-8Q">
+          <ownedParameter xmi:id="_KElZQUd3Ee6B-IBYuEX-8Q" name="content" type="_KDQjkkd3Ee6B-IBYuEX-8Q"/>
+          <ownedParameter xmi:id="_KElZQkd3Ee6B-IBYuEX-8Q" type="_J_4fcEd3Ee6B-IBYuEX-8Q" direction="return"/>
+          <language>java</language>
+          <body>this.left = null;
+		this.right = null;
+		type = NodeType.LEAF;
+		this.content = (Comparable)content;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_KEmAUEd3Ee6B-IBYuEX-8Q" name="isEmpty" specification="_J_5GgEd3Ee6B-IBYuEX-8Q">
+          <ownedParameter xmi:id="_KEmAUUd3Ee6B-IBYuEX-8Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return (left ==null) &amp;&amp; (right ==null) &amp;&amp; (content ==null);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_KEmAUkd3Ee6B-IBYuEX-8Q" name="add" specification="_KDsocUd3Ee6B-IBYuEX-8Q">
+          <ownedParameter xmi:id="_KEmAU0d3Ee6B-IBYuEX-8Q" name="n" type="_KDQjkkd3Ee6B-IBYuEX-8Q"/>
+          <language>java</language>
+          <body>switch (type) {
+		case LEAF:
+			BSTNode nNode= new BSTNode(n);
+			int comp= content.compareTo(n);
+			if (comp>=0) { // Si  n es menor o igual que content 
+				left= nNode;
+			}else {
+				right = nNode;
+			}
+			type= NodeType.BRANCH;
+			break;
+		case BRANCH:
+			addBranch(n);
+			break;
+		} 
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_KEmAVEd3Ee6B-IBYuEX-8Q" name="addBranch" specification="_KDt2kkd3Ee6B-IBYuEX-8Q">
+          <ownedParameter xmi:id="_KEmAVUd3Ee6B-IBYuEX-8Q" name="n" type="_KDQjkkd3Ee6B-IBYuEX-8Q"/>
+          <language>java</language>
+          <body>int comp= content.compareTo(n);
+		if (comp>=0) { // Si  n es menor o igual que content
+			
+			if (left != null) //Si el subárbol izquierdo no es vacío
+				left.add(n); //entonces se hace un llamado recursivo
+			else
+				left=new BSTNode(n); //Si es vacío, conectamos el nodo
+		}else { //Si es mayor
+			if (right != null) //Si el subárbol derecho no es vacío
+				right.add(n); // entonces se hace un llamado recursivo
+			else
+				right=new BSTNode(n); //Si es vacío, conectamos el nodo
+		}
+
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_KEmnYEd3Ee6B-IBYuEX-8Q" name="search" specification="_KDudoEd3Ee6B-IBYuEX-8Q">
+          <ownedParameter xmi:id="_KEmnYUd3Ee6B-IBYuEX-8Q" name="clave" type="_KDQjkkd3Ee6B-IBYuEX-8Q"/>
+          <ownedParameter xmi:id="_KEmnYkd3Ee6B-IBYuEX-8Q" type="_KDQjkkd3Ee6B-IBYuEX-8Q" direction="return"/>
+          <language>java</language>
+          <body>return null;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_KEnOcEd3Ee6B-IBYuEX-8Q" name="print" specification="_J_9X8Ed3Ee6B-IBYuEX-8Q">
+          <ownedParameter xmi:id="_KEnOcUd3Ee6B-IBYuEX-8Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;El arbol inorder es: &quot; + printInorder();
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_KEpDoEd3Ee6B-IBYuEX-8Q" name="printInorder" specification="_J__NIEd3Ee6B-IBYuEX-8Q">
+          <ownedParameter xmi:id="_KEpDoUd3Ee6B-IBYuEX-8Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String out= &quot;&quot;;
+		
+		switch (type) {
+		case LEAF:
+			out= content.toString() + &quot;(l) &quot;;
+			break;
+		case BRANCH:
+			out += left!=null? left.printInorder(): &quot;&quot;;
+			out += content.toString() + &quot;(b) &quot;;
+			out += right!= null? right.printInorder():&quot;&quot;;
+			break;
+		} 
+		return out;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_J_5GgEd3Ee6B-IBYuEX-8Q" name="isEmpty" method="_KEmAUEd3Ee6B-IBYuEX-8Q">
+          <ownedParameter xmi:id="_J_6UoEd3Ee6B-IBYuEX-8Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_J_9X8Ed3Ee6B-IBYuEX-8Q" name="print" method="_KEnOcEd3Ee6B-IBYuEX-8Q">
+          <ownedParameter xmi:id="_J_9X8Ud3Ee6B-IBYuEX-8Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_J__NIEd3Ee6B-IBYuEX-8Q" name="printInorder" method="_KEpDoEd3Ee6B-IBYuEX-8Q">
+          <ownedParameter xmi:id="_J__0MEd3Ee6B-IBYuEX-8Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_KDplIEd3Ee6B-IBYuEX-8Q" name="BSTNode" method="_KEkLIEd3Ee6B-IBYuEX-8Q">
+          <eAnnotations xmi:id="_KDqMMEd3Ee6B-IBYuEX-8Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_KDqMMUd3Ee6B-IBYuEX-8Q" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_KDplIUd3Ee6B-IBYuEX-8Q" name="left" type="_J_4fcEd3Ee6B-IBYuEX-8Q"/>
+          <ownedParameter xmi:id="_KDplIkd3Ee6B-IBYuEX-8Q" name="right" type="_J_4fcEd3Ee6B-IBYuEX-8Q"/>
+          <ownedParameter xmi:id="_KDplI0d3Ee6B-IBYuEX-8Q" name="content" type="_KDi3cEd3Ee6B-IBYuEX-8Q"/>
+          <ownedParameter xmi:id="_KDplJEd3Ee6B-IBYuEX-8Q" name="type" type="_KAEssEd3Ee6B-IBYuEX-8Q"/>
+          <ownedParameter xmi:id="_KDqMMkd3Ee6B-IBYuEX-8Q" type="_J_4fcEd3Ee6B-IBYuEX-8Q" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_KDqzQEd3Ee6B-IBYuEX-8Q" name="BSTNode" method="_KElZQEd3Ee6B-IBYuEX-8Q">
+          <eAnnotations xmi:id="_KDsBYEd3Ee6B-IBYuEX-8Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_KDsBYUd3Ee6B-IBYuEX-8Q" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_KDqzQUd3Ee6B-IBYuEX-8Q" name="content" type="_KDQjkkd3Ee6B-IBYuEX-8Q"/>
+          <ownedParameter xmi:id="_KDsocEd3Ee6B-IBYuEX-8Q" type="_J_4fcEd3Ee6B-IBYuEX-8Q" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_KDsocUd3Ee6B-IBYuEX-8Q" name="add" method="_KEmAUkd3Ee6B-IBYuEX-8Q">
+          <ownedParameter xmi:id="_KDsockd3Ee6B-IBYuEX-8Q" name="n" type="_KDQjkkd3Ee6B-IBYuEX-8Q"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_KDt2kkd3Ee6B-IBYuEX-8Q" name="addBranch" visibility="private" method="_KEmAVEd3Ee6B-IBYuEX-8Q">
+          <ownedParameter xmi:id="_KDt2k0d3Ee6B-IBYuEX-8Q" name="n" type="_KDQjkkd3Ee6B-IBYuEX-8Q"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_KDudoEd3Ee6B-IBYuEX-8Q" name="search" method="_KEmnYEd3Ee6B-IBYuEX-8Q">
+          <ownedParameter xmi:id="_KDudoUd3Ee6B-IBYuEX-8Q" name="clave" type="_KDQjkkd3Ee6B-IBYuEX-8Q"/>
+          <ownedParameter xmi:id="_KDudokd3Ee6B-IBYuEX-8Q" type="_KDQjkkd3Ee6B-IBYuEX-8Q" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_KACQcEd3Ee6B-IBYuEX-8Q" name="Collection">
+        <ownedComment xmi:id="_KE0p0Ed3Ee6B-IBYuEX-8Q">
+          <body>Interfaz que define las operaciones básicas de una colecciOn
+@author angievig
+@version 1.0
+@since August 2023</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_KAC3gEd3Ee6B-IBYuEX-8Q" name="empty" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_KDvrwEd3Ee6B-IBYuEX-8Q" name="add">
+          <ownedParameter xmi:id="_KDvrwUd3Ee6B-IBYuEX-8Q" name="n" type="_KDQjkkd3Ee6B-IBYuEX-8Q"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_KDvrwkd3Ee6B-IBYuEX-8Q" name="search">
+          <ownedParameter xmi:id="_KDvrw0d3Ee6B-IBYuEX-8Q" name="clave" type="_KDQjkkd3Ee6B-IBYuEX-8Q"/>
+          <ownedParameter xmi:id="_KDwS0Ed3Ee6B-IBYuEX-8Q" type="_KDQjkkd3Ee6B-IBYuEX-8Q" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Enumeration" xmi:id="_KAEssEd3Ee6B-IBYuEX-8Q" name="NodeType">
+        <ownedLiteral xmi:id="_KAWZgEd3Ee6B-IBYuEX-8Q" name="BRANCH"/>
+        <ownedLiteral xmi:id="_KAXnoEd3Ee6B-IBYuEX-8Q" name="LEAF"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_KAYOsEd3Ee6B-IBYuEX-8Q" name="Tree">
+        <ownedComment xmi:id="_KE1Q4Ed3Ee6B-IBYuEX-8Q">
+          <body>Interfaz que define las operaciones básicas de un árbol
+@author angievig
+@version 1.0
+@since August 2023</body>
+        </ownedComment>
+        <generalization xmi:id="_KDOuYEd3Ee6B-IBYuEX-8Q" general="_KACQcEd3Ee6B-IBYuEX-8Q"/>
+        <ownedOperation xmi:id="_KAaD4Ed3Ee6B-IBYuEX-8Q" name="print">
+          <ownedParameter xmi:id="_KAaq8Ed3Ee6B-IBYuEX-8Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_KEw_cEd3Ee6B-IBYuEX-8Q" name="" memberEnd="_KDzWIUd3Ee6B-IBYuEX-8Q _KEyNkEd3Ee6B-IBYuEX-8Q">
+        <ownedEnd xmi:id="_KEyNkEd3Ee6B-IBYuEX-8Q" name="" type="_J_4fcEd3Ee6B-IBYuEX-8Q" association="_KEw_cEd3Ee6B-IBYuEX-8Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_KE0CwEd3Ee6B-IBYuEX-8Q" name="" memberEnd="_KD3nkEd3Ee6B-IBYuEX-8Q _KE0CwUd3Ee6B-IBYuEX-8Q">
+        <ownedEnd xmi:id="_KE0CwUd3Ee6B-IBYuEX-8Q" name="" type="_J_4fcEd3Ee6B-IBYuEX-8Q" association="_KE0CwEd3Ee6B-IBYuEX-8Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_KE0Cwkd3Ee6B-IBYuEX-8Q" name="" memberEnd="_KD41sEd3Ee6B-IBYuEX-8Q _KE0Cw0d3Ee6B-IBYuEX-8Q">
+        <ownedEnd xmi:id="_KE0Cw0d3Ee6B-IBYuEX-8Q" name="" type="_J_4fcEd3Ee6B-IBYuEX-8Q" association="_KE0Cwkd3Ee6B-IBYuEX-8Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_KFEhcEd3Ee6B-IBYuEX-8Q" name="" memberEnd="_KFEhcUd3Ee6B-IBYuEX-8Q _KDw54Ed3Ee6B-IBYuEX-8Q">
+        <ownedEnd xmi:id="_KFEhcUd3Ee6B-IBYuEX-8Q" name="" type="_J_p18Ed3Ee6B-IBYuEX-8Q" association="_KFEhcEd3Ee6B-IBYuEX-8Q"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_J_A8wEd3Ee6B-IBYuEX-8Q" name="ui">
+      <packagedElement xmi:type="uml:Class" xmi:id="_J_dosEd3Ee6B-IBYuEX-8Q" name="Main">
+        <ownedComment xmi:id="_KEsG8Ed3Ee6B-IBYuEX-8Q">
+          <body>Clase principal del proyecto
+@author angievig
+@version 1.0
+@since August 2023</body>
+        </ownedComment>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_KEUTgEd3Ee6B-IBYuEX-8Q" name="main" specification="_J_myoEd3Ee6B-IBYuEX-8Q">
+          <ownedParameter xmi:id="_KEU6kEd3Ee6B-IBYuEX-8Q" name="a">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KEU6kUd3Ee6B-IBYuEX-8Q" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>BST tree = new BST();
+		System.out.println(&quot;Ejecución&quot;);
+		
+		System.out.println(&quot;imprimir un árbol vacío&quot;);
+		System.out.println(tree.print());
+		
+		System.out.println(&quot;M&quot;.compareTo(&quot;D&quot;));
+//		
+//		tree.add(&quot;M&quot;);
+//		tree.add(&quot;D&quot;);
+//		tree.add(&quot;P&quot;);
+		
+		tree.add(10);
+		tree.add(4);
+		tree.add(16);
+		tree.add(2);
+		
+
+		
+		System.out.println(tree.print());
+		
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_J_myoEd3Ee6B-IBYuEX-8Q" name="main" isStatic="true" method="_KEUTgEd3Ee6B-IBYuEX-8Q">
+          <ownedParameter xmi:id="_J_nZsEd3Ee6B-IBYuEX-8Q" name="a">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_J_on0Ed3Ee6B-IBYuEX-8Q" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_KDQjkEd3Ee6B-IBYuEX-8Q" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_KDQjkUd3Ee6B-IBYuEX-8Q" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_KDQjkkd3Ee6B-IBYuEX-8Q" name="Object"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_KDi3cEd3Ee6B-IBYuEX-8Q" name="Comparable"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_JvONQEd3Ee6B-IBYuEX-8Q">
+      <eAnnotations xmi:id="_JvQpgEd3Ee6B-IBYuEX-8Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_JvTs0Ed3Ee6B-IBYuEX-8Q" base_Package="_JlHPAEd3Ee6B-IBYuEX-8Q">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_J_v8kEd3Ee6B-IBYuEX-8Q" base_Element="_J_uucEd3Ee6B-IBYuEX-8Q"/>
+  <UMLLabProfile:Annotations xmi:id="_J_0OAEd3Ee6B-IBYuEX-8Q" base_Element="_J_uucEd3Ee6B-IBYuEX-8Q">
+    <annotations xmi:id="_J_01EEd3Ee6B-IBYuEX-8Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_J_67sEd3Ee6B-IBYuEX-8Q" base_Element="_J_5GgEd3Ee6B-IBYuEX-8Q"/>
+  <UMLLabProfile:Annotations xmi:id="_J_8w4Ed3Ee6B-IBYuEX-8Q" base_Element="_J_5GgEd3Ee6B-IBYuEX-8Q">
+    <annotations xmi:id="_J_8w4Ud3Ee6B-IBYuEX-8Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_J_9_AEd3Ee6B-IBYuEX-8Q" base_Element="_J_9X8Ed3Ee6B-IBYuEX-8Q"/>
+  <UMLLabProfile:Annotations xmi:id="_J_-mEEd3Ee6B-IBYuEX-8Q" base_Element="_J_9X8Ed3Ee6B-IBYuEX-8Q">
+    <annotations xmi:id="_J_-mEUd3Ee6B-IBYuEX-8Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_KAJlMEd3Ee6B-IBYuEX-8Q" base_Element="_KAEssEd3Ee6B-IBYuEX-8Q"/>
+  <UMLLabProfile:Reference xmi:id="_KDRxsEd3Ee6B-IBYuEX-8Q" base_Element="_KDQjkkd3Ee6B-IBYuEX-8Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_KDSYwUd3Ee6B-IBYuEX-8Q" base_Element="_KDRxsUd3Ee6B-IBYuEX-8Q"/>
+  <UMLLabProfile:Annotations xmi:id="_KDS_0Ed3Ee6B-IBYuEX-8Q" base_Element="_KDRxsUd3Ee6B-IBYuEX-8Q">
+    <annotations xmi:id="_KDS_0Ud3Ee6B-IBYuEX-8Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_KDhCQEd3Ee6B-IBYuEX-8Q" base_Element="_KDcw0Ed3Ee6B-IBYuEX-8Q"/>
+  <UMLLabProfile:Annotations xmi:id="_KDhpUEd3Ee6B-IBYuEX-8Q" base_Element="_KDcw0Ed3Ee6B-IBYuEX-8Q">
+    <annotations xmi:id="_KDiQYEd3Ee6B-IBYuEX-8Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_KDkFkEd3Ee6B-IBYuEX-8Q" base_Element="_KDi3cEd3Ee6B-IBYuEX-8Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_KDtPgEd3Ee6B-IBYuEX-8Q" base_Element="_KDsocUd3Ee6B-IBYuEX-8Q"/>
+  <UMLLabProfile:Annotations xmi:id="_KDt2kEd3Ee6B-IBYuEX-8Q" base_Element="_KDsocUd3Ee6B-IBYuEX-8Q">
+    <annotations xmi:id="_KDt2kUd3Ee6B-IBYuEX-8Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_KDudo0d3Ee6B-IBYuEX-8Q" base_Element="_KDudoEd3Ee6B-IBYuEX-8Q"/>
+  <UMLLabProfile:Annotations xmi:id="_KDvEsEd3Ee6B-IBYuEX-8Q" base_Element="_KDudoEd3Ee6B-IBYuEX-8Q">
+    <annotations xmi:id="_KDvEsUd3Ee6B-IBYuEX-8Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_KDyIAEd3Ee6B-IBYuEX-8Q" base_Element="_KDw54Ed3Ee6B-IBYuEX-8Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_KDzWIEd3Ee6B-IBYuEX-8Q" base_Element="_KDyIAUd3Ee6B-IBYuEX-8Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_KD4OoUd3Ee6B-IBYuEX-8Q" base_Element="_KD4OoEd3Ee6B-IBYuEX-8Q"/>
+  <UMLLabProfile:Reference xmi:id="_KFFvkEd3Ee6B-IBYuEX-8Q" base_Element="_KFEhcEd3Ee6B-IBYuEX-8Q"/>
+</xmi:XMI>
