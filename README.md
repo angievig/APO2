@@ -120,3 +120,17 @@ Seguimiento
 
 **Laboratorio**
 Ejemplo de Comparable (agregar objetos) y trabajo de la tarea integradora
+
+## Semana 7
+**Sesión 1:** Excepciones, parte 1
+
+* [Slides](https://docs.google.com/presentation/d/1r5dElqqP-3c-4nt61YYXh8JLLQRqZ6kCwVfgSuIgP1w/edit?usp=sharing)
+* [Ejercicio - archivo Main.java](https://drive.google.com/file/d/1b7l9BbhmznpkOSC8jz8dyBhZ-1Q29u_C/view?usp=drive_link)
+* [Hoja de trabajo](https://docs.google.com/document/d/19xfTotV7OMKAUGMwE1ekSu0FhscJ0I-xNLVAtp4sKxY/edit?usp=sharing)
+* 
+
+**Sesión 2:** Excepciones parte 2, continuar con la hoja de trabajo y el proyecto en donde el programador implementa sus propias clases de excepción
+
+
+**Laboratorio**
+Seguimiento de excepciones, calificable
