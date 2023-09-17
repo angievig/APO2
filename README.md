@@ -134,3 +134,16 @@ Ejemplo de Comparable (agregar objetos) y trabajo de la tarea integradora
 
 **Laboratorio**
 Seguimiento de excepciones, calificable
+
+## Semana 8
+**Sesión 1:** Pruebas unitarias, parte 1 y Quiz de excepciones
+
+* [Slides]()
+* [Hoja de trabajo]()
+  
+
+**Sesión 2:** Excepciones parte 2, 
+
+
+**Laboratorio**
+Seguimiento de pruebas unitarias, calificable
