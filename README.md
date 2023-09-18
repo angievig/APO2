@@ -138,7 +138,7 @@ Seguimiento de excepciones, calificable
 ## Semana 8
 **Sesión 1:** Pruebas unitarias, parte 1 y Quiz de excepciones
 
-* [Slides]()
+* [Slides](https://docs.google.com/presentation/d/1s25MyNVB3Z8_gGsiFHrgfs3audfUDaygn-u6Xc1A0UM/edit?usp=sharing)
 * [Hoja de trabajo]()
   
 
