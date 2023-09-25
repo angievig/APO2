@@ -146,4 +146,15 @@ Seguimiento de excepciones, calificable
 
 
 **Laboratorio**
-Seguimiento de pruebas unitarias, calificable
+Seguimiento de pruebas unitarias, no calificable
+
+## Semana 9
+**Sesión 1:** Archivos y Persistencia
+
+* [Slides](https://docs.google.com/presentation/d/1__VaJoJmaYsLaGv7VMCkExnu63hnIMGG2hYLU1RpOzw/edit?usp=sharing)
+* [Hoja de trabajo](https://docs.google.com/document/d/1eSI2amLjtbh0b-njI2OMv7k0Jy04wTfpQlLkKY5G3J0/edit?usp=sharing)
+
+  **Sesión 2:** Serialización y formato de archivos para intercambiar información
+
+  **Laboratorio**
+Seguimiento de archivos, persistencia y serialización, calificable
