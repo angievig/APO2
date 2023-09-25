@@ -142,7 +142,7 @@ Seguimiento de excepciones, calificable
 * [Hoja de trabajo]()
   
 
-**Sesión 2:** Excepciones parte 2, 
+**Sesión 2:** Pruebas unitarias, parte 2 
 
 
 **Laboratorio**
@@ -154,7 +154,7 @@ Seguimiento de pruebas unitarias, no calificable
 * [Slides](https://docs.google.com/presentation/d/1__VaJoJmaYsLaGv7VMCkExnu63hnIMGG2hYLU1RpOzw/edit?usp=sharing)
 * [Hoja de trabajo](https://docs.google.com/document/d/1eSI2amLjtbh0b-njI2OMv7k0Jy04wTfpQlLkKY5G3J0/edit?usp=sharing)
 
-  **Sesión 2:** Serialización y formato de archivos para intercambiar información
+**Sesión 2:** Serialización y formato de archivos para intercambiar información
 
-  **Laboratorio**
+**Laboratorio**
 Seguimiento de archivos, persistencia y serialización, calificable
