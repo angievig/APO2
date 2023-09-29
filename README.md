@@ -159,3 +159,4 @@ Seguimiento de pruebas unitarias, no calificable
 
 **Laboratorio**
 Seguimiento de archivos, persistencia y serialización, calificable
+* [Enunciado](https://classroom.github.com/a/b2TZYB7B)
