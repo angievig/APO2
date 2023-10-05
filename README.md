@@ -165,3 +165,5 @@ Seguimiento de archivos, persistencia y serialización, calificable
 **Tarea integradora 2** 
 * [classroom](https://classroom.github.com/a/n79VROXG)
 * [Enunciado](https://docs.google.com/document/d/1Hw4UQA-riwi4d3a7AGtKQrOgWnJowk73/edit?usp=sharing&ouid=117715056210468312762&rtpof=true&sd=true)
+
+  **Laboratorio**  Seguimiento calificable [Problemas](www.hackerrank.com/seguimiento-semana-10-ordenamientos)
