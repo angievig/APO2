@@ -171,10 +171,10 @@ Seguimiento de archivos, persistencia y serialización, calificable
 ## Semana 11
 **Sesión 1**
 * Búsqueda Binaria, [Material](https://es.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
-* Problemas de ordenamientos y búsquedas [Enlace](hhttp://www.hackerrank.com/searching-1696850633)
+* Problemas de ordenamientos y búsquedas [Enlace](http://www.hackerrank.com/searching-1696850633) 
 
 **Sesión 2**
-* Introducción a JAVA FX (Scene builder, organización de elementos)
+* Introducción a JAVA FX (Scene builder, organización de elementos) Documentación oficial[url](https://openjfx.io/openjfx-docs/)
 
 **Laboratorio**
 * Ejercicios y seguimiento
