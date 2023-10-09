@@ -170,7 +170,7 @@ Seguimiento de archivos, persistencia y serialización, calificable
 
 ## Semana 11
 **Sesión 1**
-* Búsqueda Binaria
+* Búsqueda Binaria, [Material](https://es.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
 * Problemas de ordenamientos y búsquedas [Enlace](www.hackerrank.com/searching-1696850633)
 
 **Sesión 2**
