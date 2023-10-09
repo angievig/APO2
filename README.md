@@ -167,3 +167,14 @@ Seguimiento de archivos, persistencia y serialización, calificable
 * [Enunciado](https://docs.google.com/document/d/1Hw4UQA-riwi4d3a7AGtKQrOgWnJowk73/edit?usp=sharing&ouid=117715056210468312762&rtpof=true&sd=true)
 
 **Laboratorio**  Seguimiento calificable [Problemas](https://www.hackerrank.com/seguimiento-semana-10-ordenamientos)
+
+## Semana 11
+**Sesión 1**
+* Búsqueda Binaria
+* Problemas de ordenamientos y búsquedas [Enlace](www.hackerrank.com/searching-1696850633)
+
+**Sesión 2**
+* Introducción a JAVA FX (Scene builder, organización de elementos)
+
+**Laboratorio**
+* Ejercicios y seguimiento
