@@ -178,3 +178,7 @@ Seguimiento de archivos, persistencia y serialización, calificable
 
 **Laboratorio**
 * Ejercicios y seguimiento
+
+##Semana 12
+**Sesión 1**
+* [Slides](https://docs.google.com/presentation/d/1zZvyyUF4MXMQhOkkjgGCH0uaj37GE3j-P7IxunEQA7g/edit?usp=sharing)
