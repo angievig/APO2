@@ -190,5 +190,5 @@ Seguimiento de archivos, persistencia y serialización, calificable
 Seguimiento Calificable
 
 
-* [Enunciado](https://docs.google.com/document/d/1ou6Xs4uWKB2Z8iu_47IjzKD4tltEE454/edit?usp=sharing&ouid=117715056210468312762&rtpof=true&sd=true)
+* [Enunciado]
 * [Repositorio](https://classroom.github.com/a/O0d9r-Hp)
