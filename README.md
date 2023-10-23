@@ -5,6 +5,7 @@
 
 
 * [Planeador del curso](https://docs.google.com/spreadsheets/d/1z8GmqfVigv0Cw7zNp6ka6kbA7co6jamBC4KDVrMvq2A/edit?usp=sharing)
+* [Notas de los seguimientos](https://docs.google.com/spreadsheets/d/16QQ0HHIokDMbrJSDhm5ZFIQVkSH_5dM8T-aqbIwgWLM/edit?usp=sharing)
 
 * [Grupo de telegram](https://t.me/+07pnqgzeptU3MjEx)
 
@@ -142,8 +143,52 @@ Seguimiento de excepciones, calificable
 * [Hoja de trabajo]()
   
 
-**Sesión 2:** Excepciones parte 2, 
+**Sesión 2:** Pruebas unitarias, parte 2 
 
 
 **Laboratorio**
-Seguimiento de pruebas unitarias, calificable
+Seguimiento de pruebas unitarias, no calificable
+
+## Semana 9
+**Sesión 1:** Archivos y Persistencia
+
+* [Slides](https://docs.google.com/presentation/d/1__VaJoJmaYsLaGv7VMCkExnu63hnIMGG2hYLU1RpOzw/edit?usp=sharing)
+* [Hoja de trabajo](https://docs.google.com/document/d/1eSI2amLjtbh0b-njI2OMv7k0Jy04wTfpQlLkKY5G3J0/edit?usp=sharing)
+
+**Sesión 2:** Serialización y formato de archivos para intercambiar información
+
+**Laboratorio**
+Seguimiento de archivos, persistencia y serialización, calificable
+* [Enunciado](https://classroom.github.com/a/b2TZYB7B)
+
+## Semana 10
+**Tarea integradora 2** 
+* [classroom](https://classroom.github.com/a/n79VROXG)
+* [Enunciado](https://docs.google.com/document/d/1Hw4UQA-riwi4d3a7AGtKQrOgWnJowk73/edit?usp=sharing&ouid=117715056210468312762&rtpof=true&sd=true)
+
+**Laboratorio**  Seguimiento calificable [Problemas](https://www.hackerrank.com/seguimiento-semana-10-ordenamientos)
+
+## Semana 11
+**Sesión 1**
+* Búsqueda Binaria, [Material](https://es.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
+* Problemas de ordenamientos y búsquedas [Enlace](http://www.hackerrank.com/searching-1696850633) 
+
+**Sesión 2**
+* Introducción a JAVA FX (Scene builder, organización de elementos) Documentación oficial[url](https://openjfx.io/openjfx-docs/)
+
+**Laboratorio**
+* Ejercicios y seguimiento
+
+##Semana 12
+**Sesión 1**
+
+* [Slides](https://docs.google.com/presentation/d/1zZvyyUF4MXMQhOkkjgGCH0uaj37GE3j-P7IxunEQA7g/edit?usp=sharing)
+
+
+**Laboratorio**
+
+Seguimiento Calificable
+
+
+* [Enunciado](https://docs.google.com/document/d/1ou6Xs4uWKB2Z8iu_47IjzKD4tltEE454/edit?usp=sharing&ouid=117715056210468312762&rtpof=true&sd=true)
+* [Repositorio](https://classroom.github.com/a/O0d9r-Hp)
