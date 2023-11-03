@@ -179,7 +179,7 @@ Seguimiento de archivos, persistencia y serialización, calificable
 **Laboratorio**
 * Ejercicios y seguimiento
 
-##Semana 12
+## Semana 12
 **Sesión 1**
 
 * [Slides](https://docs.google.com/presentation/d/1zZvyyUF4MXMQhOkkjgGCH0uaj37GE3j-P7IxunEQA7g/edit?usp=sharing)
@@ -194,7 +194,7 @@ Seguimiento Calificable
 * [Repositorio](https://classroom.github.com/a/O0d9r-Hp)
 
 
-##Semana 14
+## Semana 14
 **Sesión 1**
 
 * [Slides](https://docs.google.com/presentation/d/1b4F7RDI3HDci54ZoZucwz8jjAISEAj8k4jxtAzCvc7Q/edit?usp=sharing)
