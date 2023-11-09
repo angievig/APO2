@@ -198,3 +198,9 @@ Seguimiento Calificable
 **Sesión 1**
 
 * [Slides](https://docs.google.com/presentation/d/1b4F7RDI3HDci54ZoZucwz8jjAISEAj8k4jxtAzCvc7Q/edit?usp=sharing)
+  
+## Semana 15
+**Sesión 1**
+
+* [Video](https://youtu.be/VbZAuNBt0Fs)
+* [Proyecto] ()
