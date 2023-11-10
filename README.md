@@ -203,6 +203,7 @@ Seguimiento Calificable
 **Sesión 1**
 
 * [Video](https://youtu.be/VbZAuNBt0Fs)
-* [Proyecto](https://github.com/angievig/APO2/files/13308149/AnimationG3.zip)
+* [Proyecto (Refactorizado)](https://github.com/angievig/APO2/files/13321871/AnimationG3.zip)
+* [Diagrama de clases] (https://drive.google.com/file/d/13xrhHUoWrijjfNqjnKkVzdhUkH_51_VV/view?usp=sharing)
 * [Imágenes(https://github.com/angievig/APO2/files/13308153/animations.1.zip)
 
